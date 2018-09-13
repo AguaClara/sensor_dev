@@ -11,12 +11,10 @@ By designing a mobile application that utilizes image processing and basic equat
 the image values to concentrations, we can both get a visual of what is going on in each level of depth
 and determine using a threshold value where the sludge blanket begins.
 
-
-The current members of this subteam are 
-
+The current members of this subteam are
+* Dana Owens (DLO49)
+* Lawrence Li (LL678)
 * Lois Lee (LL556) 
-* Srilekha Vangavolu (SV397)
-* Hannah Si (HS649)
 
 
 ## Srilekha's CAD rendering of the MAPE design.
@@ -29,7 +27,6 @@ Here is the ruler system we are currently fabricating:
 
 
 To learn more about the specifics of our subteam, please look through the tabs below.
-
 
 * [Logbook](./logs/logs.md)
 * [Manuals](./manuals/manuals.md)
@@ -47,6 +44,12 @@ To learn more about the specifics of our subteam, please look through the tabs b
 
 Learn more about each of the [components](./components/components.md) of our sensor plan.
 
+
+
+The past members of this subteam are 
+
+* Srilekha Vangavolu (SV397)
+* Hannah Si (HS649)
 
 
 
