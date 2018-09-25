@@ -1,160 +1,26 @@
-# AguaClara Research Report & Manual Template
-#### Natalie Mottl, William Pennock, Janak Shah, and Jillian Whiting
-#### February 20, 2018
 
-# Template Description
-This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
-
-# Team Name, Semester Year
-#### Authors
-#### Date
+# Sensor Development, Fall 2018
+#### Dana Owens, Lawrence Li, Lois Lee
+#### September 25, 2018
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+
+The objective of the Sensor Development subteam is to develop sensors to monitor water quality during the water treatment process. In previous semesters, the subteam developed a working prototype for an in-lab fluidized bed solids detector and also made considerable progress towards prototyping a submersible sludge blanket detector. This semester the subteam will work on finalizing a product-level version of the in-lab fluidized bed solids detector with a more intuitive user interface.The subteam will also work on finishing and determining the best prototype for the sludge blanket detector.
+
 
 ## Introduction
-Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
-## Literature Review and Previous Work
+The Sensor Development team aims to create sensors that monitor and report water quality. These sensors can be used in many different steps of the water treatment process. Specifically, these sensors can be used to measure the efficiency of the treatment process and help catch problems if they arise. Originally, the Sensor Development subteam worked on developing a gas measurement sensor that would help subteams such as the Anaerobic Fluidized Bed (AFB) Reactor and Upflow Anaerobic Sludge Blanket (UASB) wastewater subteams with their research. 
+
+The following semester, the subteam worked on a fluidized bed solids concentration sensor in order to measure the clay particle concentration in the high rate sedimentation portion of the water treatment process. Over the past year the subteam has concentrated on redefining the fluidized bed solids concentration sensor and building a submersible solids concentration sensor to measure turbidity. 
+
+This semester, the team hopes to redesign the in-lab fluidized bed solids detector and make it more user-friendly by creating a user interface. The subteam is also currently developing a design for the finalized in-lab fluidized bed solids detector using 3D printing and embedded circuitry that will make the sensor both easier and safer to use. The goal of this sensor to provide the HRS team with a fast method of testing the concentration of clay particles within their testing parameters.  In addition, the subteam is looking into submersibility design options for the turbidity sensor. The goal of the subteam is to finish prototyping the MIA and the MAPE turbidity sensors, which are two design ideas the subteam developed for the submersible sensor the previous semester. The ultimate goal for this sensor is mainly to provide the treatment plant operators with a way to determine the height of the sludge blanket in a way that is both cost-efficient and easy to use. The sensors should help provide insight and information as to what is happening in the plants.
+
+## Previous Work
+
 Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
 
+Last semester, the sensor development subteam worked on developing the mobile application-processed endoscope (MAPE) turbidity sensor, which could be lowered into sedimentation tanks to measure the distance to the sludge blanket. The sensor utilizes an endoscope to take live images of the water, which are collected and processed for average light intensity by the mobile application component. This sensor enables the calculation of the fluid turbidity from each image. This calculation uses an empirically obtained correlation between turbidity and the intensity of reflected light, as well as offset for any light detected during calibration in clear fluid. The goal of this sensor is to readily measure water turbidity and determine the height of the sludge blanket in a sedimentation tank.
 
-## Methods
-Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
+Additionally, the subteam worked on the microcontroller-interfaced analog (MIA) sensor, which houses an analog photodiode, a LED light source, and a microcontroller within a portable casing. Similar to the MAPE turbidity sensor, the MIA sensor measures the fluid turbidity using light intensity. However, this sensor detects light passing through the fluid using a photodiode, which is more reliable and less susceptible to noise. The microcontroller reads the data from the photosensor and converts it into turbidity values, using a relation established through calibration testing. This sensor serves as a prototype for a larger device that will function similarly to the MAPE turbidity sensor, providing treatment plant operators with affordable and user-friendly methods of determining fluid turbidity and the height of the sludge blanket. 
 
-Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
-
-### Experimental Apparatus
-Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
-* Design (calculations, constraints)
-
-  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
-* Schematic (label parts)
-
-  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
-
-* Image (from lab; label parts)
-* Materials (dimensions, materials)
-* Complications in construction
-* If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
-
-### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
-
-## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
-
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
-![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
-Figure 1: Captions are very important for figures. Captions go below figures.
-
-### Figure requirements
- - Create the graph using python (not Excel)
- - If the x axis is time then make zero time reflect the beginning of the test.
- - Use a white background for all graphs.
- - Most data will have both x and y values and thus should be presented using an xy scatter plot.
- - Label all axes and include units where appropriate.
- - Axis scale labels should be in the margin of the graph and not inside the graph border.
- - Eliminate parts of the range in both x and y axis that aren't used or that aren't meaningful.
- - Place a caption with a brief description below the graph. Add this caption using the wiki formatting, not in your graphing software.
- - Use data symbols to show data points unless there is so much data that the symbols overlap. If the data symbols overlap it is better to connect the data points with a line and not show the data symbols.
- - When presenting multiple plots on a single graph make sure that it is easy to distinguish the plots using the legend.
- - If curve fitting is used explain why and include the equation (elsewhere in the report).
- - If a model or theoretical curve is presented it should be a smooth curve without data points.
- - Use the same font in the graphs as you use in the text of the report.
- - Insert the graph in your report after the first reference to it in the text. Inserted the graph after the next paragraph break
- - Scale the size of the graph so it is large enough to see the data and read the text without having to follow a link to see a larger image. Avoid using hyperlinks on images because that causes the export to Microsoft Word option to not include the image.
-
-After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
-* Why did you get those results/data?
-* Did these results line up with expectations?
-* What went wrong?
-* If the data do not support your hypothesis, is there another hypothesis that describes your new data?
-
-## Conclusions
-Explain what you have learned and how that influences your next steps. Why does what you discovered matter to AguaClara?
-
-Make sure that you defend your conclusions with facts and results.
-
-## Future Work
-Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
-
-## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
-
-# Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
-
-## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
-
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
-
-## Experimental Methods
-### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
-
-### Experiment
-Step 1.
-
-### Cleaning Procedure
-Step 1.
-
-## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
-
-## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
-
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
-
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
-
-## Python Code
-
-### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
-
-```python
-# Comment
-```
-
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
-
-```python
-# To convert the document from markdown to pdf
-pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
-```
