@@ -14,6 +14,8 @@ The sensor development team's repo.
 
 ## Links to Reports and Presentations
 
+[Symposium Fall 2018](https://docs.google.com/presentation/d/1lunibmZEZ28jcir-08SKcnAh3Tq5pmKuoBBsQUrALIY/edit#slide=id.g44e7874227_0_21) 
+
 [Manual Rough Draft Fall 2018](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
 [Midterm Symposium Spring 2018](https://docs.google.com/presentation/d/1DQyx87q7LtW5yOaPytrrnAvyGNLM-DLOTYY6XjQVZQw/edit?usp=sharing)
