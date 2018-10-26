@@ -51,6 +51,7 @@ The photosensor used is the TEMT6000 Ambient Light Sensor made by SparkFun. TEMT
 
 We also utilized an LED from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED is the best choice because it is a plastic diffused backlight, allowing even distribution of light throughout the system, which will minimize the effect on the calibration curve that the positioning of the photosensor may create. 
 
+The other parts necessary for this sensor are wire and female and male headers which are comonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well.
 
 ## Experimental Methods
 ### Set-up
