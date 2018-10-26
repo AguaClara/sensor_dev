@@ -58,8 +58,14 @@ We also utilized an LED from adafruit, available [here](https://www.adafruit.com
 The other parts necessary for this sensor are wire and female and male headers which are comonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well.
 
 ## Experimental Methods
-### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+### Set-up for Developing a Calibration Curve:
+
+Similar to the method used in the past semesters, the team will develop a calibration curve using the following steps:
+  1. Wrap the sensor around the 1 inch PVC. 
+  2. Connect the sensor to the connecting cord and subsequently connect the cord to ProCoDA.
+  3. Run obtained clay solutions with known different concentrations through the PVC.
+  4. Collect data on the voltages read from the sensor during each iteration.
+  5. Use linear regression to develop a calibration curve.
+  
+ 
+
