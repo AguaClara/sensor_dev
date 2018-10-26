@@ -23,9 +23,9 @@ Last semester, the sensor development subteam worked on developing the mobile ap
 
 Additionally, the subteam worked on the microcontroller-interfaced analog (MIA) sensor, which houses an analog photodiode, a LED light source, and a microcontroller within a portable casing. Similar to the MAPE turbidity sensor, the MIA sensor measures the fluid turbidity using light intensity. However, this sensor detects light passing through the fluid using a photodiode, which is more reliable and less susceptible to noise. The microcontroller reads the data from the photosensor and converts it into turbidity values, using a relation established through calibration testing. This sensor serves as a prototype for a larger device that will function similarly to the MAPE turbidity sensor, providing treatment plant operators with affordable and user-friendly methods of determining fluid turbidity and the height of the sludge blanket. 
 
-![](MIA_MAPE.jpg)
+![](MIA_extension.jpg)
 
-Figure 1: The above figure shows the parts of the two different sensor systems.
+Figure 1: The above figure shows the endoscope extension that was designed to improve accuracy of the camera and remove other confounding variables.
 
 
 ## Methods
