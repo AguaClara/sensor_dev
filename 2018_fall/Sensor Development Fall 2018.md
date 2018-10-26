@@ -34,10 +34,22 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+### Fabrication for the Fluidized Beds Solids Detector
 
-There are two main
+The main fabrication for the Fluidized Beds Solids Detector is creating a hard shell that allows the sensor to be more user friendly. The hard shell is made using the software OnShape to create a 3D model of the casing that is eventually printed in a 3D printer. The model is designed by creating a hollow circular base with an inner radius of 0.875 inches and an outer radius of 1.0 inch. Then the base is extruded 6.5 inches and cut in half using a plane that runs parallel to the sensor.
+
+![](onshape_model.jpg)
+
+Figure 1: The model created using the software OnShape. Two copies of this model are 3D printed in order to create a complete casing that will surround the pipe that the sensor will be used on.
+
+This design also requires that we line the casing with foam. The foam should be 2.48 inches wide, 0.18 inches deep and 6.25 inches long. This foam houses both the LED and the photosensor which are embedded into the foam.
+
+## Special Components
+### Special Components for the Fluidized Beds Solids Detector 
+
+The photosensor used is the TEMT6000 Ambient Light Sensor made by SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688). 
+
+
 
 ## Experimental Methods
 ### Set-up
