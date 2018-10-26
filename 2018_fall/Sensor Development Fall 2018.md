@@ -58,14 +58,17 @@ We also utilized an LED from adafruit, available [here](https://www.adafruit.com
 The other parts necessary for this sensor are wire and female and male headers which are comonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well.
 
 ## Experimental Methods
-### Set-up for Developing a Calibration Curve:
+### Set-up:
 
-Similar to the method used in the past semesters, the team will develop a calibration curve using the following steps:
-  1. Wrap the sensor around the 1 inch PVC. 
-  2. Connect the sensor to the connecting cord and subsequently connect the cord to ProCoDA.
-  3. Run obtained clay solutions with known different concentrations through the PVC.
-  4. Collect data on the voltages read from the sensor during each iteration.
-  5. Use linear regression to develop a calibration curve.
+#### Current Experimental Methods
+Because we are currently in the fabrication process, we are not able to test the sensor.
+
+#### Future Experimental Methods
+To develop a voltage-concentration relation for the fluidized bed solids detector, we will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. We will analyze the recorded voltage output data for a relation between voltage and absorbance. Using the known concentrations of the fluids, we will be able to find a relation between concentration and absorbance, and thus concentration and voltage. 
+
+We will use our calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, we can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. It may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, we are not yet at the testing phase and have no experimentation details yet to report.
+
+
   
  
 
