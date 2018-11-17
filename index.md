@@ -46,6 +46,20 @@ Learn more about each of the [components](./components/components.md) of our sen
 
 
 
+
+## Tasks:
+
+### 3 sets of trials with 10 tests each:
+We will have concentrations ranging from 0.00 -0.05 (g/mL) with intervals of 0.005
+
+Interval | #1: 0 | #2: 0.005 | #3: 0.010  | #4:0.015 | #5: 0.020 | #6: 0.025 | #7: 0.030 | #8: 0.035 | #9: 0.040 | #10; 0.045 | #11: 0.050
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+g of clay | 0 | 1.37500 | 2.7500 | 4.12500 | 5.50000 | 6.87500 | 8.25 | 9.62500 | 11 | 12.37500 | 13.75
+
+#### repeat tests 3 times, with a total of 33 tests
+
+
+
 The past members of this subteam are 
 
 * Srilekha Vangavolu (SV397)
