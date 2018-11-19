@@ -25,8 +25,17 @@ Last semester, the sensor development subteam worked on developing the mobile ap
 
 Additionally, the subteam worked on the microcontroller-interfaced analog (MIA) sensor, which houses an analog photodiode, a LED light source, and a microcontroller within a portable casing. Similar to the MAPE turbidity sensor, the MIA sensor measures the fluid turbidity using light intensity. However, this sensor detects light passing through the fluid using a photodiode, which is more reliable and less susceptible to noise. The microcontroller reads the data from the photosensor and converts it into turbidity values, using a relation established through calibration testing. This sensor serves as a prototype for a larger device that will function similarly to the MAPE turbidity sensor, providing treatment plant operators with affordable and user-friendly methods of determining fluid turbidity and the height of the sludge blanket. 
 
-## Fabrication Details
+## Methods
 
+The methodology of attaining a calibration curve has been listed in experimental methods. To use the fluidized bed solids detector for the HRS team apparatus, the following steps must be taken.
+
+* Connect the sensor to ProCoDA 
+* Attach to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
+* Using ProCoDA read the voltage values and use the subsequent calibration curve to determine the corresponding concentration/turbidity.
+
+*Note: the calibration curve is still being developed.*
+
+## Fabrication Details
 
 ### Fabrication for the Fluidized Beds Solids Detector
 The main fabrication for the Fluidized Beds Solids Detector is creating a hard shell that allows the sensor to be more user friendly. The hard shell is made using the software OnShape to create a 3D model of the casing that is eventually printed in a 3D printer. The model is designed by creating a hollow circular base with an inner radius of 0.875 inches and an outer radius of 1.0 inch. Then the base is extruded 6.5 inches and cut in half using a plane that runs parallel to the sensor. These dimension of the diameter of the sensor was designed to create a tight fit for the 1-inch PVC pipe, while also leaving enough room for a layer of foam to house the electronics. The 1-inch PVC pipe was used because the sensor is meant to fit around the HRS team’s apparatus which uses the 1-inch PVC pipe.  The length was an optimization in order to minimize exposure to outside light while allowing for a good fit on the HRS team’s apparatus. To fit properly between the casing and the pipe, the foam should be 2.48 inches wide, 0.18 inches deep and 6.25 inches long. Both the LED and the photosensor are embedded within the foam opposing each other in the center of each side of the sensor.
@@ -36,6 +45,7 @@ The main fabrication for the Fluidized Beds Solids Detector is creating a hard s
 Figure 1: The model created using the software OnShape. Two copies of this model are 3D printed in order to create a complete casing that will surround the pipe that the sensor will be used on.
 
 After the casing is printed, a layer of foam is epoxied to the inner wall of each side of the casing. The edges of the foam are cut with an X-Acto knife to make sure the foam fits flush with the outer casing and aligns parallel with the edge where the two pieces of the casing come together. Magnetic tape is glued along the length of the casing on the thin, flat surfaces where the two parts of the casing attach together. The magnetic tape is aligned so that when the two shells are attached, they form a cylinder with flush outer walls. In testing, the magnets have been strong enough to hold the two parts of the casing together and create a secure clasp for the sensor.
+
 Cutouts are made in the middle of each piece of foam to fit an LED on one side and a photosensor on the other. The LED and the photosensor are glued to the foam and wires (ground, power, signal) are soldered to these components, looping behind the foam layer and coming out on the bottom of the cylindrical casing, where they are soldered to headers that external cables can plug into, allowing the photosensor and the LED to connect to ProCoDa. The ground, power, and signal wires are marked and color-coded on the outside of the bottom of the casing so the user will know how to connect external wires properly. 
 
 ## Special Components
@@ -59,4 +69,6 @@ Because we are currently in the fabrication process, we are not able to test the
 
 To develop a voltage-concentration relation for the fluidized bed solids detector, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. 
 
-The subteam will use this calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, the team can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. It may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at the testing phase and have no experimentation details yet to report.
+The subteam will use this calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, the team can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. The team will perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading. 
+
+In the future, it may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at the testing phase and have no experimentation details yet to report.
