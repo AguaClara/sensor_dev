@@ -19,9 +19,9 @@ In the Fall 2018 semester, the team hopes to redesign the in-lab fluidized bed s
 
 ## Previous Work
 
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
-
 Last semester, the sensor development subteam worked on developing the mobile application-processed endoscope (MAPE) turbidity sensor, which could be lowered into sedimentation tanks to measure the distance to the sludge blanket. The sensor utilizes an endoscope to take live images of the water, which are collected and processed for average light intensity by the mobile application component. This sensor enables the calculation of the fluid turbidity from each image. This calculation uses an empirically obtained correlation between turbidity and the intensity of reflected light, as well as offset for any light detected during calibration in clear fluid. The goal of this sensor is to readily measure water turbidity and determine the height of the sludge blanket in a sedimentation tank.
+
+![](MIA_extension.jpg)
 
 Additionally, the subteam worked on the microcontroller-interfaced analog (MIA) sensor, which houses an analog photodiode, a LED light source, and a microcontroller within a portable casing. Similar to the MAPE turbidity sensor, the MIA sensor measures the fluid turbidity using light intensity. However, this sensor detects light passing through the fluid using a photodiode, which is more reliable and less susceptible to noise. The microcontroller reads the data from the photosensor and converts it into turbidity values, using a relation established through calibration testing. This sensor serves as a prototype for a larger device that will function similarly to the MAPE turbidity sensor, providing treatment plant operators with affordable and user-friendly methods of determining fluid turbidity and the height of the sludge blanket. 
 
@@ -31,7 +31,7 @@ Additionally, the subteam worked on the microcontroller-interfaced analog (MIA) 
 ### Fabrication for the Fluidized Beds Solids Detector
 The main fabrication for the Fluidized Beds Solids Detector is creating a hard shell that allows the sensor to be more user friendly. The hard shell is made using the software OnShape to create a 3D model of the casing that is eventually printed in a 3D printer. The model is designed by creating a hollow circular base with an inner radius of 0.875 inches and an outer radius of 1.0 inch. Then the base is extruded 6.5 inches and cut in half using a plane that runs parallel to the sensor. These dimension of the diameter of the sensor was designed to create a tight fit for the 1-inch PVC pipe, while also leaving enough room for a layer of foam to house the electronics. The 1-inch PVC pipe was used because the sensor is meant to fit around the HRS team’s apparatus which uses the 1-inch PVC pipe.  The length was an optimization in order to minimize exposure to outside light while allowing for a good fit on the HRS team’s apparatus. To fit properly between the casing and the pipe, the foam should be 2.48 inches wide, 0.18 inches deep and 6.25 inches long. Both the LED and the photosensor are embedded within the foam opposing each other in the center of each side of the sensor.
 
-![](MIA_extension.jpg)
+![](onshape_model.jpg)
 
 Figure 1: The model created using the software OnShape. Two copies of this model are 3D printed in order to create a complete casing that will surround the pipe that the sensor will be used on.
 
@@ -39,29 +39,24 @@ After the casing is printed, a layer of foam is epoxied to the inner wall of eac
 Cutouts are made in the middle of each piece of foam to fit an LED on one side and a photosensor on the other. The LED and the photosensor are glued to the foam and wires (ground, power, signal) are soldered to these components, looping behind the foam layer and coming out on the bottom of the cylindrical casing, where they are soldered to headers that external cables can plug into, allowing the photosensor and the LED to connect to ProCoDa. The ground, power, and signal wires are marked and color-coded on the outside of the bottom of the casing so the user will know how to connect external wires properly. 
 
 ## Special Components
-Fluidized Beds Solids Detector 
-The photosensor used is the TEMT6000 Ambient Light Sensor made by SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available here https://www.sparkfun.com/products/8688. 
 
-The LED used … (Include LED info.. We need to find out what LED monroe used)
+### Special Components for the Fluidized Beds Solids Detector 
+
+- The photosensor used is the TEMT6000 Ambient Light Sensor made by SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688). 
+
+- We also utilized an LED from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED is the best choice because it is a plastic diffused backlight, allowing even distribution of light throughout the system, which will minimize the effect on the calibration curve that the positioning of the photosensor may create. 
+
+- The other parts necessary for this sensor are wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well.
 
 
 ## Experimental Methods
+### Set-up:
 
-Set-up
-Step 1.
+#### Current Experimental Methods
+Because we are currently in the fabrication process, we are not able to test the sensor.
 
-Put tasks in a sequential order.
-It is okay to have sub-lists.
-Like this.
-Experiment
-Step 1.
+#### Future Experimental Methods
 
-Cleaning Procedure
-Step 1.
-
-Current Experimental Methods
-Because the team is currently in the fabrication process, the sensor is yet to be tested.
-
-Future Experimental Methods
 To develop a voltage-concentration relation for the fluidized bed solids detector, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. 
+
 The subteam will use this calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, the team can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. It may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at the testing phase and have no experimentation details yet to report.
