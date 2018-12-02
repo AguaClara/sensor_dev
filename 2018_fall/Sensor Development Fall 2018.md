@@ -42,7 +42,7 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 The main fabrication for the Fluidized Beds Solids Detector is creating a hard shell that allows the sensor to be more user friendly. The hard shell is made using the software OnShape to create a 3D model of the casing that is eventually printed in a 3D printer. The model is designed by creating a hollow circular base with an inner radius of 0.875 inches and an outer radius of 1.0 inch. Then the base is extruded 6.5 inches and cut in half using a plane that runs parallel to the sensor. 
 
-![]blue.png
+![](blue.png)
 
 Figure 1: The model created using the software OnShape. The plane shown above separates the two parts of the sensor.
 
@@ -62,7 +62,7 @@ The ground, power, and signal wires are marked and color-coded on the outside of
 
 In order to step the 5V from ProCoDA to 3.3V for the LED, we used a simple voltage divider with unity gain, for which a circuit diagram has been attached below:
 
-![]circuit.png
+![](circuit.png)
 
 Figure 3: A standard 5V to 3.3V voltage divider with unity gain.
 
@@ -70,7 +70,7 @@ As can be seen, any combination of resistors with the ratio 1.7 to 3.3 can be us
 
 The op amp used was an older 16 pin model with a total of 4 internal op amps mainly due to a shortage of electrical components, however this is unnecessary excess and in the future we will  most likely revert to an 8 pin op amp with 2 internal op amps such as the LM258 or LM358 model as can be seen in the following diagram:
 
-![]standard_op_amp.png
+![](standard_op_amp.png)
 
 Figure 4: The pinout diagram for a standard 8 pin op amp with GND and +VCC inputs.
 
@@ -78,7 +78,7 @@ The last step was to connect the ProCoDA board to the sensor and LED inputs and 
 
 The grounds were all sautered together, and the sensor voltage (VCC) was connected directly to the sensor power. The signal from the sensor was likewise sautered directly to the signal on the board. However, the power for LED provided by the board is 5V, so this is where the voltage divider with unity gain was placed, and it outputs into the LED power. 
 
-![]diagram4.png
+![](diagram4.png)
 
 Figure 5: A diagram of the wiring schematic used.
 
