@@ -16,10 +16,14 @@ The sensor development team's repo.
 
 [Symposium Fall 2018](https://docs.google.com/presentation/d/1lunibmZEZ28jcir-08SKcnAh3Tq5pmKuoBBsQUrALIY/edit#slide=id.g44e7874227_0_21) 
 
-[Manual Rough Draft Fall 2018](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+[Final Presentation Fall 2018](https://docs.google.com/presentation/d/17gbcGkgXVKzlnCITjcyJOvZCZV-m2hfEmijmOgN-dpk/edit#slide=id.g498a5cc811_0_26)
+
+[Final Manual Fall 2018](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
 [Midterm Symposium Spring 2018](https://docs.google.com/presentation/d/1DQyx87q7LtW5yOaPytrrnAvyGNLM-DLOTYY6XjQVZQw/edit?usp=sharing)
 
 [Final Symposium Spring 2018](https://docs.google.com/presentation/d/1z8MEi4Bpe6GwdDxDbs89RpllG_0ilBI8o5UYnoSLq9U/edit#slide=id.g1111d7c42e_0_81)
 
-[Final Manual](https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md)
+[Final Manual Spring 2018](https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md)
+
+
