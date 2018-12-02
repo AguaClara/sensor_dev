@@ -34,6 +34,14 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 *Note: the calibration curve is still being developed.*
 
+### Conclusions
+
+The main conclusions gained from Fall 2018 semester were mostly regarding modularity of design. Because the team wanted to ensure complete flexibility in user usage, a lot of thought has been placed into how to make the sensor easiest to use. This involved allowing the user to replace faulty photosensors and LEDs which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. 
+
+### Future Work
+
+The team was not able to test due to complications that arose in the circuitry of the 5V to 3.3V voltage step down. Once this issue is resolved, the testing and calibration curve can be developed using methods that have been proven to work for the previous iterations which have been outlined in this paper. The team will also begin work on the submersible sensor which had been delayed due to the current project.
+
 ## Fabrication Details
 
 ### Fabrication for the Fluidized Beds Solids Detector
@@ -90,14 +98,14 @@ Figure 5: A diagram of the wiring schematic used.
 
 - We also utilized an LED from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED is the best choice because it is a plastic diffused backlight, allowing even distribution of light throughout the system, which will minimize the effect on the calibration curve that the positioning of the photosensor may create. 
 
-- The other parts necessary for this sensor are wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well.
+- The other parts necessary for this sensor are wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
 
 ## Experimental Methods
 ### Set-up:
 
 #### Current Experimental Methods
-Because we are currently in the fabrication process, we are not able to test the sensor.
+Due to complications in circuitry, the testing phase has not yet commenced. The problem caused the LED to flicker, and a steady light intensity is an uncompromisable part necessary to develop an accurate calibration curve. Until this problem is fixed, the team will not be able to begin experiments. 
 
 #### Future Experimental Methods
 
