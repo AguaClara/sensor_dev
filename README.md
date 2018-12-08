@@ -14,6 +14,8 @@ The sensor development team's repo.
 
 ## Links to Reports and Presentations
 
+[Final Presentation 2018](https://www.youtube.com/watch?v=kdExqWYQUp4&fbclid=IwAR3qTFfXEKs9vFkJliVOt9lb3al0OEvaf2x8Fl9Cfil3wVWwRreYeziP8f8)
+
 [Symposium Fall 2018](https://docs.google.com/presentation/d/1lunibmZEZ28jcir-08SKcnAh3Tq5pmKuoBBsQUrALIY/edit#slide=id.g44e7874227_0_21) 
 
 [Final Presentation Fall 2018](https://docs.google.com/presentation/d/17gbcGkgXVKzlnCITjcyJOvZCZV-m2hfEmijmOgN-dpk/edit#slide=id.g498a5cc811_0_26)
