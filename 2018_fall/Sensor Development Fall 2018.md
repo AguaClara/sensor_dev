@@ -5,20 +5,20 @@
 
 ## Abstract
 
-The objective of the Sensor Development subteam is to develop sensors to monitor water quality during the water treatment process. In previous semesters, the subteam developed a working prototype for an in-lab fluidized bed solids detector and also made considerable progress towards prototyping a submersible sludge blanket detector. This semester the subteam will work on finalizing a product-level version of the in-lab fluidized bed solids detector with a more intuitive user interface.The subteam will also work on finishing and determining the best prototype for the sludge blanket detector.
+The objective of the Sensor Development subteam is to develop sensors to monitor water quality during the water treatment process in Aguaclara plants. In previous semesters, the subteam developed a working prototype for an in-lab fluidized bed solids detector and also made progress towards prototyping a submersible sludge blanket detector. This semester the subteam also worked on finalizing a product-level version of the in-lab fluidized bed solids detector with a more intuitive user interface.The subteam will also work on finishing and determining the best prototype for the sludge blanket detector.
 
 
 ## Introduction
 
-The Sensor Development team aims to create sensors that monitor and report water quality. Specifically, these sensors can be used to quantify the effectiveness of the treatment process by measuring the turbidity of the water during and after different steps of the treatment process, helping to catch problems if they arise. Originally, in Spring 2017, the Sensor Development subteam worked on developing a gas measurement sensor that would help subteams such as the Anaerobic Fluidized Bed (AFB) Reactor and Upflow Anaerobic Sludge Blanket (UASB) wastewater subteams with their research. 
+The Sensor Development team aims to create sensors that monitor and report water quality during the water treatment plan process in an Aguaclara plant. Specifically, these sensors can be used to quantify the effectiveness of the treatment process by measuring the turbidity of the water during and after different steps of the treatment process, helping to catch problems if they arise. Originally, in Spring 2017, the Sensor Development subteam worked on developing a gas measurement sensor that would help subteams such as the Anaerobic Fluidized Bed (AFB) Reactor and Upflow Anaerobic Sludge Blanket (UASB) wastewater subteams with their research. 
 
 The following semester, the subteam worked on a fluidized bed solids concentration sensor in order to measure the clay particle concentration in the high rate sedimentation portion of the water treatment process. Over the course of the Fall 2017 and Spring 2018 semesters, the subteam has concentrated on redefining the fluidized bed solids concentration sensor and building a submersible solids concentration sensor to measure turbidity. 
 
-In the Fall 2018 semester, the team hopes to redesign the in-lab fluidized bed solids detector and make it more user-friendly by creating a user interface. The subteam is also currently developing a design for the finalized in-lab fluidized bed solids detector using 3D printing and embedded circuitry that will make the sensor both easier and safer to use. The goal of this sensor to provide the HRS team with a fast method of testing the concentration of clay particles within their testing parameters.  In addition, the subteam is looking into submersibility design options for the turbidity sensor. The goal of the subteam is to finish prototyping the Microcontroller-Interfaced Analog (MIA) and the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which are two design ideas the subteam developed for the submersible sensor the previous semester. The ultimate goal for this sensor is mainly to provide the treatment plant operators with a way to determine the height of the sludge blanket in a way that is both cost-efficient and easy to use. This is especially necessary because it is currently impossible for the plant operators to have a real-time measurement of what occurs within the flocc hopper. This could help determine when the sludge blanket levels are rising. The sensors should help provide insight and information as to what is happening in the plants.
+In the Fall 2018 semester, the team redesigned the in-lab fluidized bed solids detector and make it more user-friendly by creating a user interface. The subteam has also developed a design for the finalized in-lab fluidized bed solids detector using 3D printing and embedded circuitry that will make the sensor both easier and safer to use in the future. The goal of this sensor to provide the High Rate Sedimentation (HRS) team with a fast method of testing the concentration of clay particles within their testing parameters.  In addition, the subteam has looked into submersibility design options for the turbidity sensor. The goal of the subteam is to finish prototyping the Microcontroller-Interfaced Analog (MIA) and the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The ultimate goal for this sensor is mainly to provide the treatment plant operators with a way to determine the height of the sludge blanket in a way that is both cost-efficient and easy to use. This was especially necessary because it is currently impossible for the plant operators to have a real-time measurement of what occurs within the flocc hopper. This can help determine when the sludge blanket levels are rising. The sensors should help provide insight and information as to what is happening in the plants.
 
 ## Previous Work
 
-Last semester, the sensor development subteam worked on developing the mobile application-processed endoscope (MAPE) turbidity sensor, which could be lowered into sedimentation tanks to measure the distance to the sludge blanket. The sensor utilizes an endoscope to take live images of the water, which are collected and processed for average light intensity by the mobile application component. This sensor enables the calculation of the fluid turbidity from each image. This calculation uses an empirically obtained correlation between turbidity and the intensity of reflected light, as well as offset for any light detected during calibration in clear fluid. The goal of this sensor is to readily measure water turbidity and determine the height of the sludge blanket in a sedimentation tank.
+Last semester, the sensor development subteam worked on developing the mobile application-processed endoscope (MAPE) turbidity sensor, which can be lowered into sedimentation tanks to measure the distance to the sludge blanket. The sensor utilizes an endoscope to take live images of the water, which are collected and processed for average light intensity by the mobile application component. This sensor enables the calculation of the fluid turbidity from each image. This calculation uses an empirically obtained correlation between turbidity and the intensity of reflected light, as well as offset for any light detected during calibration in clear fluid. The goal of this sensor is to readily measure water turbidity and determine the height of the sludge blanket in a sedimentation tank.
 
 ![](MIA_extension.jpg)
 
@@ -28,19 +28,19 @@ Additionally, the subteam worked on the microcontroller-interfaced analog (MIA) 
 
 The methodology of attaining a calibration curve has been listed in experimental methods. To use the fluidized bed solids detector for the HRS team apparatus, the following steps must be taken.
 
-* Connect the sensor to ProCoDA 
-* Attach to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
-* Using ProCoDA read the voltage values and use the subsequent calibration curve to determine the corresponding concentration/turbidity.
+1. Connect the sensor to ProCoDA 
+2. Attach to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
+3. Using ProCoDA read the voltage values and use the subsequent calibration curve to determine the corresponding concentration/turbidity.
 
 *Note: the calibration curve is still being developed.*
 
 ### Conclusions
 
-The main conclusions gained from Fall 2018 semester were mostly regarding modularity of design. Because the team wanted to ensure complete flexibility in user usage, a lot of thought has been placed into how to make the sensor easiest to use. This involved allowing the user to replace faulty photosensors and LEDs which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. 
+The main conclusions gained from Fall 2018 semester were mostly regarding modularity of design. Because the team wanted to ensure complete flexibility in terms of usage, a lot of thought has been placed into how to make the sensor easiest to use. This involved allowing the user to replace faulty photosensors and LEDs which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. 
 
 ### Future Work
 
-The team was not able to test due to complications that arose in the circuitry of the 5V to 3.3V voltage step down. Once this issue is resolved, the testing and calibration curve can be developed using methods that have been proven to work for the previous iterations which have been outlined in this paper. The team will also begin work on the submersible sensor which had been delayed due to the current project.
+The team was not able to test due to complications that arose in the circuitry of the 5V to 3.3V voltage step down. Once this issue is resolved, the testing and calibration curve can be developed using methods that have been proven to work for the previous iterations which have been outlined in this paper. The team will also begin work on the submersible sensor which had been delayed due to the current project in Spring 2019.
 
 ## Fabrication Details
 
@@ -52,13 +52,13 @@ The main fabrication for the Fluidized Beds Solids Detector is creating a hard s
 
 ![](blue.png)
 
-Figure 1: The model created using the software OnShape. The plane shown above separates the two parts of the sensor.
+**Figure 1: The model created using the software OnShape. The plane shown above separates the two parts of the sensor.**
 
 The dimension of the diameter of the sensor was designed to create a tight fit for the 1-inch PVC pipe, while also leaving enough room for a layer of foam to house the electronics. The 1-inch PVC pipe was used because the sensor is meant to fit around the HRS team’s apparatus which uses the 1-inch PVC pipe.  The length was an optimization in order to minimize exposure to outside light while allowing for a good fit on the HRS team’s apparatus. To fit properly between the casing and the pipe, the foam should be 2.48 inches wide, 0.18 inches deep and 6.25 inches long. Both the LED and the photosensor are embedded within the foam opposing each other in the center of each side of the sensor.
 
 ![](onshape_model.jpg)
 
-Figure 2: The model created using the software OnShape. Two copies of this model are 3D printed in order to create a complete casing that will surround the pipe that the sensor will be used on.
+**Figure 2: The model created using the software OnShape. Two copies of this model are 3D printed in order to create a complete casing that will surround the pipe that the sensor will be used on.**
 
 After the casing is printed, a layer of foam is epoxied to the inner wall of each side of the casing. The edges of the foam are cut with an X-Acto knife to make sure the foam fits flush with the outer casing and aligns parallel with the edge where the two pieces of the casing come together. Magnetic tape is glued along the length of the casing on the thin, flat surfaces where the two parts of the casing attach together. The magnetic tape is aligned so that when the two shells are attached, they form a cylinder with flush outer walls. In testing, the magnets have been strong enough to hold the two parts of the casing together and create a secure clasp for the sensor.
 
@@ -72,15 +72,15 @@ In order to step the 5V from ProCoDA to 3.3V for the LED, we used a simple volta
 
 ![](circuit.png)
 
-Figure 3: A standard 5V to 3.3V voltage divider with unity gain.
+**Figure 3: A standard 5V to 3.3V voltage divider with unity gain.**
 
-As can be seen, any combination of resistors with the ratio 1.7 to 3.3 can be used. However, because the voltage limit on the LED was 3.3V, the LED was at a risk of burning out if the voltage from the circuit went over 3.3V. Thus the resistor value was increased to a ratio of 2.1 to 3.3 and thus the circuit used has resistor values of 33 ohms and 21 ohms. 
+As shown above, any combination of resistors with the ratio 1.7 to 3.3 can be used. However, because the voltage limit on the LED was 3.3V, the LED was at a risk of burning out if the voltage from the circuit went over 3.3V. Thus the resistor value was increased to a ratio of 2.1 to 3.3 and thus the circuit used has resistor values of 33 ohms and 21 ohms. 
 
 The op amp used was an older 16 pin model with a total of 4 internal op amps mainly due to a shortage of electrical components, however this is unnecessary excess and in the future we will  most likely revert to an 8 pin op amp with 2 internal op amps such as the LM258 or LM358 model as can be seen in the following diagram:
 
 ![](standard_op_amp.png)
 
-Figure 4: The pinout diagram for a standard 8 pin op amp with GND and +VCC inputs.
+**Figure 4: The pinout diagram for a standard 8 pin op amp with GND and +VCC inputs.**
 
 The last step was to connect the ProCoDA board to the sensor and LED inputs and outputs. There were a total of 4 wires stemming from the ProCoDA board: ground (GND), power for the sensor (VCC), power for the LED (LED), and signal (S). The connections for the LED and sensor were: signal from sensor, ground for sensor, ground for LED, power for sensor, power for LED. 
 
@@ -88,7 +88,7 @@ The grounds were all sautered together, and the sensor voltage (VCC) was connect
 
 ![](diagram4.png)
 
-Figure 5: A diagram of the wiring schematic used.
+**Figure 5: A diagram of the wiring schematic used.**
 
 ## Special Components
 
