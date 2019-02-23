@@ -84,7 +84,7 @@ The op amp used was an older 16 pin model with a total of 4 internal op amps mai
 
 The last step was to connect the ProCoDA board to the sensor and LED inputs and outputs. There were a total of 4 wires stemming from the ProCoDA board: ground (GND), power for the sensor (VCC), power for the LED (LED), and signal (S). The connections for the LED and sensor were: signal from sensor, ground for sensor, ground for LED, power for sensor, power for LED.
 
-The grounds were all sautered together, and the sensor voltage (VCC) was connected directly to the sensor power. The signal from the sensor was likewise sautered directly to the signal on the board. However, the power for LED provided by the board is 5V, so this is where the voltage divider with unity gain was placed, and it outputs into the LED power.
+The grounds were all soldered together, and the sensor voltage (VCC) was connected directly to the sensor power. The signal from the sensor was likewise soldered directly to the signal on the board. However, the power for LED provided by the board is 5V, so this is where the voltage divider with unity gain was placed, and it outputs into the LED power.
 
 ![](diagram4.png)
 
