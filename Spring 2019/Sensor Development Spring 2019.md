@@ -34,13 +34,6 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 *Note: the calibration curve is still being developed.*
 
-### Conclusions
-
-The main conclusions gained from Fall 2018 semester were mostly regarding modularity of design. Because the team wanted to ensure complete flexibility in terms of usage, a lot of thought has been placed into how to make the sensor easiest to use. This involved allowing the user to replace faulty photosensors and LEDs which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor.
-
-### Future Work
-
-The team was not able to test due to complications that arose in the circuitry of the 5V to 3.3V voltage step down. Once this issue is resolved, the testing and calibration curve can be developed using methods that have been proven to work for the previous iterations which have been outlined in this paper. The team will also begin work on the submersible sensor which had been delayed due to the current project in Spring 2019.
 
 ## Fabrication Details
 
