@@ -45,61 +45,8 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 ## Fabrication Details
 
-### Fabrication for the Fluidized Beds Solids Detector
-
-#### Casing
-
-The main fabrication for the Fluidized Beds Solids Detector is creating a hard shell that allows the sensor to be more user friendly. The hard shell is made using the software OnShape to create a 3D model of the casing that is eventually printed in a 3D printer. The model is designed by creating a hollow circular base with an inner radius of 0.875 inches and an outer radius of 1.0 inch. Then the base is extruded 6.5 inches and cut in half using a plane that runs parallel to the sensor.
-
-![](blue.png)
-
-**Figure 1: The model created using the software OnShape. The plane shown above separates the two parts of the sensor.**
-
-The dimension of the diameter of the sensor was designed to create a tight fit for the 1-inch PVC pipe, while also leaving enough room for a layer of foam to house the electronics. The 1-inch PVC pipe was used because the sensor is meant to fit around the HRS team’s apparatus which uses the 1-inch PVC pipe.  The length was an optimization in order to minimize exposure to outside light while allowing for a good fit on the HRS team’s apparatus. To fit properly between the casing and the pipe, the foam should be 2.48 inches wide, 0.18 inches deep and 6.25 inches long. Both the LED and the photosensor are embedded within the foam opposing each other in the center of each side of the sensor.
-
-![](onshape_model.jpg)
-
-**Figure 2: The model created using the software OnShape. Two copies of this model are 3D printed in order to create a complete casing that will surround the pipe that the sensor will be used on.**
-
-After the casing is printed, a layer of foam is epoxied to the inner wall of each side of the casing. The edges of the foam are cut with an X-Acto knife to make sure the foam fits flush with the outer casing and aligns parallel with the edge where the two pieces of the casing come together. Magnetic tape is glued along the length of the casing on the thin, flat surfaces where the two parts of the casing attach together. The magnetic tape is aligned so that when the two shells are attached, they form a cylinder with flush outer walls. In testing, the magnets have been strong enough to hold the two parts of the casing together and create a secure clasp for the sensor.
-
-Cutouts are made in the middle of each piece of foam to fit an LED on one side and a photosensor on the other. The LED and the photosensor are glued to the foam and wires (ground, power, signal) are soldered to these components, looping behind the foam layer and coming out on the bottom of the cylindrical casing, where they are soldered to headers that external cables can plug into, allowing the photosensor and the LED to connect to ProCoDa.
-
-The ground, power, and signal wires are marked and color-coded on the outside of the bottom of the casing so the user will know how to connect external wires properly.
-
-#### Circuitry
-
-In order to step the 5V from ProCoDA to 3.3V for the LED, we used a simple voltage divider with unity gain, for which a circuit diagram has been attached below:
-
-![](circuit.png)
-
-**Figure 3: A standard 5V to 3.3V voltage divider with unity gain.**
-
-As shown above, any combination of resistors with the ratio 1.7 to 3.3 can be used. However, because the voltage limit on the LED was 3.3V, the LED was at a risk of burning out if the voltage from the circuit went over 3.3V. Thus the resistor value was increased to a ratio of 2.1 to 3.3 and thus the circuit used has resistor values of 33 ohms and 21 ohms.
-
-The op amp used was an older 16 pin model with a total of 4 internal op amps mainly due to a shortage of electrical components, however this is unnecessary excess and in the future we will  most likely revert to an 8 pin op amp with 2 internal op amps such as the LM258 or LM358 model as can be seen in the following diagram:
-
-![](standard_op_amp.png)
-
-**Figure 4: The pinout diagram for a standard 8 pin op amp with GND and +VCC inputs.**
-
-The last step was to connect the ProCoDA board to the sensor and LED inputs and outputs. There were a total of 4 wires stemming from the ProCoDA board: ground (GND), power for the sensor (VCC), power for the LED (LED), and signal (S). The connections for the LED and sensor were: signal from sensor, ground for sensor, ground for LED, power for sensor, power for LED.
-
-The grounds were all soldered together, and the sensor voltage (VCC) was connected directly to the sensor power. The signal from the sensor was likewise soldered directly to the signal on the board. However, the power for LED provided by the board is 5V, so this is where the voltage divider with unity gain was placed, and it outputs into the LED power.
-
-![](diagram4.png)
-
-**Figure 5: A diagram of the wiring schematic used.**
 
 ## Special Components
-
-### Special Components for the Fluidized Beds Solids Detector
-
-- The photosensor used is the TEMT6000 Ambient Light Sensor made by SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
-
-- We also utilized an LED from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED is the best choice because it is a plastic diffused backlight, allowing even distribution of light throughout the system, which will minimize the effect on the calibration curve that the positioning of the photosensor may create.
-
-- The other parts necessary for this sensor are wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
 
 ## Experimental Methods
