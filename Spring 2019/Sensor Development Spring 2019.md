@@ -51,9 +51,9 @@ The Sensor Development team has begun work on fabricating the Submersible Sludge
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
-This semester the Sensor Development team made minor adjustments to the design of the Fluidized Beds Solids Detector to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit, the design now includes a 3V battery connected directly to the LED. More work needs to be done to make the connection to the battery stable and user-friendly. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+This semester the Sensor Development team made minor adjustments to the design of the Fluidized Beds Solids Detector to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit the design now includes a 3V battery connected directly to the LED. More work needs to be done to make the connection to the battery stable and user-friendly. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
-In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. 
+In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. This makes it simpler to add and remove water of different turbidities to the tube. 
 
 
 ## Special Components
@@ -62,7 +62,7 @@ In order to begin testing, the Sensor Development team also created a testing ap
 
 - The photosensor used is the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688). 
 
-- 
+- Because the code will rely on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used is a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
 
 ### Special Components for the Fluidized Beds Solids Detector 
 
