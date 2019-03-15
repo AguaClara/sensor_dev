@@ -45,8 +45,32 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 ## Fabrication Details
 
+### Fabrication Details for the Submersible Sludge Blanket Detector
+
+The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the 
+
+### Fabrication Details for the Fluidized Beds Solids Detector
+
+This semester the Sensor Development team made minor adjustments to the design of the Fluidized Beds Solids Detector to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit, the design now includes a 3V battery connected directly to the LED. More work needs to be done to make the connection to the battery stable and user-friendly. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+
+In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. 
+
 
 ## Special Components
+
+### Special Components for the Submersible Sludge Blanket Detector
+
+- The photosensor used is the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688). 
+
+- 
+
+### Special Components for the Fluidized Beds Solids Detector 
+
+- The photosensor used is TEMT6000 Ambient Light Sensor, which is the same photosensor as for the Submersible Sludge Blanket Detector. It is available [here](https://www.sparkfun.com/products/8688). 
+
+- The LED used is from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED was chosen due to its plastic diffused backlight, which allowed even distribution of light throughout the system, minimizing the effect on the calibration curve that the positioning of the photosensor may create. 
+
+- The other parts necessary for this sensor are wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
 
 ## Experimental Methods
