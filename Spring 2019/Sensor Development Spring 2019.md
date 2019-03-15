@@ -47,7 +47,7 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 ### Fabrication Details for the Submersible Sludge Blanket Detector
 
-The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the 
+The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED will be cased within cuvettes and sealed with silicon caulk.
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
