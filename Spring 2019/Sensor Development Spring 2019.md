@@ -5,7 +5,7 @@
 **[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
 
 ## Abstract
-The objective of the Sensor Development subteam is to develop sensors to monitor and report water quality during the water treatment process in AguaClara plants. In previous semesters, the subteam developed a working prototype for an in-lab fluidized bed solids detector and made preliminary designs for a submersible sludge blanket detector. This semester the subteam will develop a calibration curve for the fluidized bed solids detector and will also work on creating a prototype for the sludge blanket detector. Additionally, the subteam is assisting on a design of a low-cost turbidimeter utilizing both the reflectance and absorbance of light.
+The Sensor Development subteam’s goal was to develop low-cost sensors with readily available materials to monitor and report water quality in the water treatment processes in AguaClara plants. In Spring 2019, the subteam developed a calibration curve for the fluidized bed solids detector and prototyped a sludge blanket detector. Additionally, the subteam worked on the design of a low-cost turbidimeter utilizing both the reflectance and absorbance of light.
 
 **[Overall comment: Please remember to write in past tense throughout the manual as it would be someone in the future~ reading your final manual. Refer to Will's Technical Writing Presentation or our team's Grammar Guidelines on [Confluence](https://confluence.cornell.edu/display/AGUACLARA/Grammar+Guidelines+for+Reports).]**
 
