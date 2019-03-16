@@ -14,7 +14,9 @@ The Sensor Development subteam’s goal was to develop low-cost sensors with rea
 
 ## Introduction
 
-The Sensor Development team aims to create sensors that monitor and report water quality during the water treatment process in an AguaClara plant. Specifically, these sensors can be used to quantify the effectiveness of the treatment process by measuring the turbidity of the water during and after different steps of the treatment process, helping to catch problems if they arise. Originally, in Spring 2017, the Sensor Development subteam worked on developing a gas measurement sensor that would help subteams such as the Anaerobic Fluidized Bed (AFB) Reactor and Upflow Anaerobic Sludge Blanket (UASB) wastewater subteams with their research.
+The Sensor Development subteam create sensors that monitor and report water quality during the water treatment process in AguaClara plants. The subteam strives to create affordable and user-friendly sensors with ready available and replaceable parts. The goal is to streamline the measurement process to ensure it is not only user-friendly but also accurate. These sensors quantify the effectiveness of the treatment process by measuring the turbidity of the water at different stages of the treatment process, helping to catch problems if they arise. 
+
+Originally, in Spring 2017, the Sensor Development subteam worked on developing a gas measurement sensor that would help subteams such as the Anaerobic Fluidized Bed (AFB) Reactor and Upflow Anaerobic Sludge Blanket (UASB) wastewater subteams with their research.
 
 The following semester, the subteam worked on a fluidized bed solids concentration sensor in order to measure the clay particle concentration in the high rate sedimentation portion of the water treatment process. Over the course of the Fall 2017 and Spring 2018 semesters, the subteam has concentrated on redefining the fluidized bed solids concentration sensor and building a submersible solids concentration sensor to measure turbidity.
 
