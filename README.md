@@ -15,6 +15,10 @@ The sensor development team's repo.
 Our goal is to create low-cost water quality analyzing sensors for in-lab and in-field use. Two projects currently being developed are the fluidized bed solids detector and the MAPE (mobile application-processed endoscope). The basic function of both these sensors is to relate absorbance or image values to concentrations.
 
 ## Links to Reports and Presentations
+
+* Spring 2019
+  * [Midterm Symposium](https://docs.google.com/presentation/d/19i2A-b2Q4f15zrK7iW6RqBcvtl5FQ7Lq-mFPZDGoYFw/edit?usp=sharing)
+
 * Fall 2018
   * [Final Presentation Video](https://www.youtube.com/watch?v=kdExqWYQUp4&fbclid=IwAR3qTFfXEKs9vFkJliVOt9lb3al0OEvaf2x8Fl9Cfil3wVWwRreYeziP8f8)
 
