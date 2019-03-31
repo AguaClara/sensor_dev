@@ -73,7 +73,10 @@ In order to begin testing, the Sensor Development team also created a testing ap
 
 ### Special Components for the Low-cost Turbidimeter
 
-- The laser diode used is of infrared type with wavelength 850nm. Six models of the lasers were bought from the distributor Digi-Key. These are the part numbers: 365-1877-ND, 365-1878-ND, 365-1879-ND, 365-1880-ND, 365-1881-ND, and 365-1883-ND.
+- The laser diode used is of infrared type with wavelength 850nm. Six models of the lasers were bought from the distributor Digi-Key. These are the part numbers: 365-1877-ND, 365-1878-ND, 365-1879-ND, 365-1880-ND, 365-1881-ND, and 365-1883-ND. 
+
+
+### Insert link to website
 
 - Along with the laser diodes, five infrared sensors were also tested. These are most sensitive at 850nm wavelength. These were bought from T.T. Electronics. The following table has relevant information regarding these sensors. 
 
