@@ -71,6 +71,14 @@ In order to begin testing, the Sensor Development team also created a testing ap
 
 - The other parts necessary for this sensor are wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
+### Special Components for the Low-cost Turbidimeter
+
+- The laser diode used is of infrared type with wavelength 850nm. Six models of the lasers were bought from the distributor Digi-Key. These are the part numbers: 365-1877-ND, 365-1878-ND, 365-1879-ND, 365-1880-ND, 365-1881-ND, and 365-1883-ND. 
+
+
+### Insert link to website
+
+- Along with the laser diodes, five infrared sensors were also tested. These are most sensitive at 850nm wavelength. These were bought from T.T. Electronics. The following table has relevant information regarding these sensors. 
 
 ## Experimental Methods
 ### Set-up:
