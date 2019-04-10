@@ -48,7 +48,7 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED will be cased within cuvettes and sealed with silicon caulk.
 
-### Fabrication Details for the Fluidized Beds Solids Det ector
+### Fabrication Details for the Fluidized Beds Solids Detector
 
 This semester the Sensor Development team made minor adjustments to the design of the Fluidized Beds Solids Detector to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit the design now includes a 3V battery connected directly to the LED. More work needs to be done to make the connection to the battery stable and user-friendly. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
