@@ -48,6 +48,8 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible.
 
+![](submersible_model.jpg)
+
 
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
