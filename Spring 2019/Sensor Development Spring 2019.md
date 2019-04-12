@@ -28,7 +28,7 @@ During the Fall 2017 and Spring 2018 semesters, the subteam began developing the
 
 Additionally, the subteam worked on the MIA sensor, which housed an analog photodiode (a semiconductor that converts light to electrical current), an LED light source, and a microcontroller inside a portable casing. Similar to the MAPE turbidity sensor, the MIA sensor measured the fluid turbidity using light intensity. However, this sensor detected light passing through the fluid using a photodiode, which is more reliable and less susceptible to noise. The microcontroller reads the data from the photosensor and converts it into turbidity values using a relation established through calibration testing. This sensor served as a prototype for a larger device that would function similarly to the MAPE turbidity sensor, providing treatment plant operators with affordable and user-friendly methods of determining fluid turbidity and sludge blanket height.
 
-During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design  has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor **[How has it solved it?]For Lois**. This semester, the team is testing this sensor to develop an absorbance-voltage relation and finalizing the prototype for in-lab use.
+During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor **[How has it solved it?]For Lois**. One major issue that this has resolved is that the previous iteration was not hard shelled and thus it was flexible and prone to movement. This caused the placing of the sensor and LED to change with each testing. This consequently caused a small variance in the light intensity readings, which the hard, inflexible casing of the new sensor resolves. This semester, the team is testing this sensor to develop an absorbance-voltage relation and finalizing the prototype for in-lab use.
 
 
 ## Methods
@@ -46,7 +46,9 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 ### Fabrication Details for the Submersible Sludge Blanket Detector
 
-The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED will be cased within cuvettes and sealed with silicon caulk.
+The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible.
+
+
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
@@ -110,3 +112,5 @@ In the future, it may also be necessary to test the effects of different types, 
 ## References
 https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md
 https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md
+
+
