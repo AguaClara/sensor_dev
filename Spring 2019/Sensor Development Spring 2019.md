@@ -50,7 +50,7 @@ The Sensor Development team has begun work on fabricating the Submersible Sludge
 
 ![](submersible_model.jpg)
 
-**Figure 1 : The above figure shows the schematic for the  submersible sensor MIA. There wires represent wires to the power source, the black toground, and the blue to the signal.
+**Figure 1 : The above figure shows the schematic for the  submersible sensor MIA. There wires represent wires to the power source, the black toground, and the blue to the signal.**
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
