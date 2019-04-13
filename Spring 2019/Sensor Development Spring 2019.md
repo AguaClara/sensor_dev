@@ -57,7 +57,7 @@ This semester the Sensor Development team made minor adjustments to the design o
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. This makes it simpler to add and remove water of different turbidities to the tube.
 
-![](SetUp.jpg)
+![](SetUp.JPG)
 
 *Figure 2 : The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.*
 
