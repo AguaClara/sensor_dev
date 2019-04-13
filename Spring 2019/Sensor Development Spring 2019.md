@@ -34,7 +34,7 @@ During the Fall 2018 semester, the FBSD was redesigned with a new casing and new
 
 ## Methods
 
-The methodology of attaining a calibration curve has been listed in experimental methods. To use the FBSD for the HRS team apparatus, the following steps must be taken.
+The methodology of attaining a calibration curve has been listed in experimental methods. A calibration curve is used to determine the concentration of an unknown solution based on previous measurements of solutions of known concentrations. To use the FBSD for the HRS team apparatus, the following steps must be taken.
 
 1. Connect the sensor to ProCoDA
 2. Attach to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
@@ -56,12 +56,13 @@ The Sensor Development team has begun work on fabricating the Submersible Sludge
 
 This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit the design now includes a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
-In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. This makes it simpler to add and remove water of different turbidities to the tube.
+In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This makes it simpler to add and remove solutions of different concentrations to the tube.
 
 ![](SetUp.JPG)
 **Figure 3:** The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.
 
 ![](FBSD_Prototype.png)
+
 **Figure 4:** The above figure shows the FBSD prototype that is being used currently for all testing.
 
 **[Pictures of the Fluidized Bed Solids Detector? And of the testing apparatus? Visuals easier to understand than words]**
@@ -111,7 +112,7 @@ Due to complications in circuitry, the testing phase has not yet commenced. The 
 
 #### Future Experimental Methods
 
-To develop a voltage-concentration relation for the FBSD, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. **[Is this the calibration curve mentioned earlier? If so it would be wise to use that term. If not delete this comment :)]**
+To develop a calibration curve for the FBSD, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. **[Is this the calibration curve mentioned earlier? If so it would be wise to use that term. If not delete this comment :)]**
 
 The subteam will use this calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, the team can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. The team will perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading.
 
