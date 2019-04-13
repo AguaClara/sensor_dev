@@ -29,10 +29,12 @@ Additionally, the subteam worked on the MIA sensor, which housed an analog photo
 
 During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor **[How has it solved it?]**. One major issue that this has resolved is that the previous iteration was not hard shelled and thus it was flexible and prone to movement. This caused the placing of the sensor and LED to change with each testing. This consequently caused a small variance in the light intensity readings, which the hard, inflexible casing of the new sensor resolves. This semester, the team is testing this sensor to develop an absorbance-voltage relation and finalizing the prototype for in-lab use.
 
+![](FBSD.png)
+**Figure 1:** The above figure shows a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV).
 
 ## Methods
 
-The methodology of attaining a calibration curve has been listed in experimental methods. To use the fluidized bed solids detector for the HRS team apparatus, the following steps must be taken.
+The methodology of attaining a calibration curve has been listed in experimental methods. To use the FBSD for the HRS team apparatus, the following steps must be taken.
 
 1. Connect the sensor to ProCoDA
 2. Attach to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
@@ -48,18 +50,19 @@ The methodology of attaining a calibration curve has been listed in experimental
 The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible.
 
 ![](submersible_model.jpg)
-
-**Figure 1 :** The above figure shows the schematic for the  submersible sensor MIA. The red wires represent wires to the power source, the black toground, and the blue to the signal.
+**Figure 2:** The above figure shows the schematic for the  submersible sensor MIA. The red wires represent wires to the power source, the black toground, and the blue to the signal.
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
-This semester the Sensor Development team made minor adjustments to the design of the Fluidized Beds Solids Detector to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit the design now includes a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remain the same, however instead of using an external 5V to 3V circuit the design now includes a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. This makes it simpler to add and remove water of different turbidities to the tube.
 
 ![](SetUp.JPG)
+**Figure 3:** The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.
 
-*Figure 2 :** The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.
+![](FBSD_Prototype.png)
+**Figure 4:** The above figure shows the FBSD prototype that is being used currently for all testing.
 
 **[Pictures of the Fluidized Bed Solids Detector? And of the testing apparatus? Visuals easier to understand than words]**
 
@@ -108,7 +111,7 @@ Due to complications in circuitry, the testing phase has not yet commenced. The 
 
 #### Future Experimental Methods
 
-To develop a voltage-concentration relation for the fluidized bed solids detector, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. **[Is this the calibration curve mentioned earlier? If so it would be wise to use that term. If not delete this comment :)]**
+To develop a voltage-concentration relation for the FBSD, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. **[Is this the calibration curve mentioned earlier? If so it would be wise to use that term. If not delete this comment :)]**
 
 The subteam will use this calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, the team can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. The team will perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading.
 
