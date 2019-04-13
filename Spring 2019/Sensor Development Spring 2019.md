@@ -108,15 +108,21 @@ OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElec
 ### Set-up:
 
 #### Current Experimental Methods
-Due to complications in circuitry, the testing phase has not yet commenced. The problem caused the LED to flicker, and a steady light intensity is an uncompromisable part necessary to develop an accurate calibration curve. Until this problem is fixed, the team will not be able to begin experiments.
+1. Fill the testing apparatus with 200 mL of water. Measure out the amount of kaolin clay needed for a given concentration.
+2. Pour kaolin clay into testing apparatus. Seal testing apparatus with the pipe cap.
+3. Open up ProCoDA and click on sensors icon.
+4. Initialize the light sensor. This is done by covering the light sensor, ensuring no light enters, and then pressing the zero button on the graph.
+5. When the test is ready to be run, the testing apparatus is shaken and then placed in the clamp. Once the tube is in the clamp, data is recorded.
+6. Initially the data has transient behavior due to air bubbles passing through and the mixing motion. However, after the transient behavior, there is a brief equilibrium where there is little change in the values. This is when the data should be recorded.
+
+To develop a calibration curve for the FBSD, the subteam will attach it to the testing apparatus( and experiment with fluids of known solids concentration and turbidity. The photosensor outputs a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. **[Is this the calibration curve mentioned earlier? If so it would be wise to use that term. If not delete this comment :)]**
+
+ The team will perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading.
 
 #### Future Experimental Methods
+To test the accuracy of the photosensor and the calibration curve, the subteam will use the calibration curve to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. By comparing the measured concentration data to the actual concentrations of the fluids, the accuracy can be verified.
 
-To develop a calibration curve for the FBSD, the subteam will attach it to the High Rate Sedimentation recirculator (straight PVC pipe) and experiment with fluids of known solids concentration and turbidity. The photosensor will output a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage. **[Is this the calibration curve mentioned earlier? If so it would be wise to use that term. If not delete this comment :)]**
-
-The subteam will use this calculated voltage-concentration relation to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. As a result, the team can test the accuracy of the photosensor and our relation formulas by comparing the measured concentration/turbidity data to the actual concentrations of the fluids. The team will perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading.
-
-In the future, it may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at the testing phase and have no experimentation details yet to report.
+In the future, it may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at that testing phase and have no experimentation details yet to report.
 
 ## Results and Analysis
 The MAPE app code from past semesters, which utilized the Android Camera API, was unable to connect to external USB cameras, so that app was effectively abandoned and the team began researching new implementations. The team looked into using the OpenCV and Camera2 libraries, but these apps were unsuccessful because these libraries may not have supported the specific camera used. Finally, using the UVCCamera library found [here](https://github.com/saki4510t/UVCCamera), the team was able to get the app connected to the endoscope. Upon being connected to a smartphone via USB, the live feed from the endoscope was displayed on the screen. While this part of the app was successful, other tasks, such as incorporating the image processing code created in past semesters and fixing the exposure/white balance of the image, have not been implemented yet. Other libraries may have to be used in conjunction with the UVCCamera library in order to process the images.
