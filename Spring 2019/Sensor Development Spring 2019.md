@@ -15,11 +15,9 @@ The Sensor Development subteam creates sensors that monitor and report water qua
 
 This semester, the subteam tested the in-lab fluidized bed solids detector (FBSD) that was prototyped in Fall 2018 using 3D printing and embedded circuitry. The goal of this sensor was to provide the High Rate Sedimentation (HRS) team with a quick method of testing the concentration of clay particles within their testing parameters. Additionally, the subteam looked into submersibility design options for the turbidity sensor and ways to waterproof the sensor without compromising on accuracy.
 
-The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA) and developed a mobile application for the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The **[The MIA? Or the MAPE? Be specific!]** MIA sensor determines when the sludge blanket levels are rising. The MAPE turbidity sensor connects an endoscope to an Android smartphone and displays the live feed from the endoscope camera, using the light intensity from the images collected to determine the water turbidity. The ultimate goal for these sensors was to provide the treatment plant operators with a cost-efficient and simple way to determine the height of the sludge blanket. This was especially necessary because it is currently impossible for the plant operators to have a real-time measurement of what occurs within the floc hopper **[What is occurring in the floc hopper? You should be specific of what operators have to measure ie sludge blanket levels. You should also include WHY they have to measure it.]**.
+The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA) and developed a mobile application for the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The **[The MIA? Or the MAPE? Be specific!]** MIA sensor determines when the sludge blanket levels are rising. The MAPE turbidity sensor connects an endoscope to an Android smartphone and displays the live feed from the endoscope camera, using the light intensity from the images collected to determine the water turbidity. The ultimate goal for these sensors was to provide the treatment plant operators with a cost-efficient and simple way to determine the height of the sludge blanket inside the floc hopper. This is critical to keep track of the rate at which the sludge blanket is rising. **[What is occurring in the floc hopper? You should be specific of what operators have to measure ie sludge blanket levels. You should also include WHY they have to measure it.]**
 
-
-Additionally, a new project was started this semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project has two main parts - the turbidimeter and the 254 nm sensor. The turbidimeter is different from the team’s past projects, as it would measure both reflectance and absorbance of the light passing through the water sample. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate it in the future semesters. This ultraviolet wavelength can be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily.
-
+Additionally, a new project was started this semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project has two main parts - the turbidimeter and the 254 nm sensor. The turbidimeter is different from the team’s past projects, as it would measure both reflectance and absorbance of the light passing through the water sample. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate it in the future semesters. This ultraviolet wavelength can be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily. 
 
 **[Good work distinguishing between your turbidimeter and the turbidimeters currently being used. What is the 254nm light though?]**
 
@@ -59,7 +57,7 @@ This semester the Sensor Development team made minor adjustments to the design o
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removeable cap at the other end. This makes it simpler to add and remove water of different turbidities to the tube.
 
-![](SetUp.jpg)
+![](SetUp.JPG)
 
 *Figure 2 : The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.*
 
@@ -100,7 +98,7 @@ OP913WSL | Sensor, Opto switch assemble, transmissive, single channel; 3.8mm; 30
 OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OPL800.pdf)
 
 ### Special Components for the MAPE Turbidity Sensor
-- The USB-connected endoscope used is the Depstech T01 USB-C Endoscope. It is designed for use with Mac and Windows computers, as well as Android smartphones. The device is available [here](http://www.depstech.com/?portfolio=depstech-t01)
+- The USB-connected endoscope used is the Depstech T01 USB-C Endoscope. It is designed for use with Mac and Windows computers, as well as Android smartphones. The device is available [here](http://www.depstech.com/?portfolio=depstech-t01).
 
 ## Experimental Methods
 ### Set-up:
@@ -116,7 +114,7 @@ The subteam will use this calculated voltage-concentration relation to test the 
 
 In the future, it may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at the testing phase and have no experimentation details yet to report.
 
-#### Results and Analysis
+## Results and Analysis
 The MAPE app code from past semesters, which utilized the Android Camera API, was unable to connect to external USB cameras, so that app was effectively abandoned and the team began researching new implementations. The team looked into using the OpenCV and Camera2 libraries, but these apps were unsuccessful because these libraries may not have supported the specific camera used. Finally, using the UVCCamera library found [here](https://github.com/saki4510t/UVCCamera), the team was able to get the app connected to the endoscope. Upon being connected to a smartphone via USB, the live feed from the endoscope was displayed on the screen. While this part of the app was successful, other tasks, such as incorporating the image processing code created in past semesters and fixing the exposure/white balance of the image, have not been implemented yet. Other libraries may have to be used in conjunction with the UVCCamera library in order to process the images.
 
 ## References
