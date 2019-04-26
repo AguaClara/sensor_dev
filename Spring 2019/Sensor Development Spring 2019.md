@@ -78,7 +78,7 @@ Figure 3 shows the testing apparatus and the test setup in lab. Figure 4 shows t
 
 - The photosensor used was **[was]** the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
 
-- Because the code will rely **[does this need to be past tense?]** on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was **[was]** a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
+- Because the code relies **[does this need to be past tense?]** on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was **[was]** a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
 
 ### Special Components for the Fluidized Beds Solids Detector
 
@@ -122,12 +122,12 @@ OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElec
 2. Pour kaolin clay into testing apparatus. Seal testing apparatus with the pipe cap.
 3. Open up ProCoDA and click on sensors icon.
 4. Initialize the light sensor. This is done by covering the light sensor, ensuring no light enters, and then pressing the zero button on the graph.
-5. When the test is ready to be run, the testing apparatus is shaken and then placed in the clamp. Once the tube is in the clamp, data is recorded. **[not sure why you switched voice here? Change so it matches the other steps?]**
+5. When the test is ready to be run, shake the testing apparatus and then place in the clamp. Once the tube is in the clamp, record data. **[not sure why you switched voice here? Change so it matches the other steps?]**
 6. Initially the data has transient behavior due to air bubbles passing through and the mixing motion. However, after the transient behavior, there is a brief equilibrium where there is little change in the values. This is when the data should be recorded.
 
 To develop a calibration curve for the FBSD, the subteam will attach it to the testing apparatus (and experiment with fluids of known solids concentration and turbidity. The photosensor outputs a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage.
 
- The team will perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading. **[Are you talking about what you have done this semester? If so, use past tense. If this is instruction for future teams, write it as a command instead because this confused me.]**
+In the future semesters, the team should perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading. **[Are you talking about what you have done this semester? If so, use past tense. If this is instruction for future teams, write it as a command instead because this confused me.]**
 
 #### Future Experimental Methods
 To test the accuracy of the photosensor and the calibration curve, the subteam will use the calibration curve to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. By comparing the measured concentration data to the actual concentrations of the fluids, the accuracy can be verified.
