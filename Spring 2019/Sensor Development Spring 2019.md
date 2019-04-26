@@ -27,10 +27,10 @@ Additionally, the subteam worked on the MIA sensor, which housed an analog photo
 
 During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. One major issue that this has resolved is that the previous iteration was not hard shelled and thus it was flexible and prone to movement. This caused the placing of the sensor and LED to change with each testing. This consequently caused a small variance in the light intensity readings, which the hard, inflexible casing of the new sensor resolves. In the Spring 2019 semester, the team has tested this sensor to develop an absorbance-voltage relation and finalized the prototype for in-lab use. **[Write in past tense.]**
 
-Please refer to Figure 1 for a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV). 
+Please refer to Figure 1 for a cross-section of the sensor.
 
 ![](FBSD.png)
-**Figure 1:****[Refer to your figures in the text otherwise they are not being used and it is not as clear to the reader their purpose.]**
+**Figure 1** Shows a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV).  **[Refer to your figures in the text otherwise they are not being used and it is not as clear to the reader their purpose.]**
 
 ## Methods
 
@@ -49,10 +49,10 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible. **[Use past tense in the active voice in this paragraph. It sounds a bit strange right now as I'm pretending to be a ~future person~. Try to imagine yourself looking back at your paper when writing it.]**
 
-The below image, Figure 2 shows the schematic for the  submersible sensor MIA. The red wires represent wires to the power source, the black toground, and the blue to the signal.
+The below image, Figure 2 shows the schematic for the  submersible sensor MIA. 
 
 ![](submersible_model.jpg)
-**Figure 2:** 
+**Figure 2:**  Shows the schematic for the MIA sensor. The red wires represent wires to the power source, the black toground, and the blue to the signal.
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
@@ -60,14 +60,15 @@ This semester the Sensor Development team made minor adjustments to the design o
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This made **[made]** it simpler to add and remove solutions of different concentrations to the tube.
 
-Figure 3 shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp. Figure 4 shows the FBSD prototype that is being used currently for all testing.
+Figure 3 shows the testing apparatus and the test setup in lab. Figure 4 shows the FBSD prototype that is being used currently for testing.
 
 ![](SetUp.JPG)
-**Figure 3:** 
+**Figure 3:** Testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp. 
 
 ![](FBSD_Prototype.png)
 
-**Figure 4:** 
+**Figure 4:** Shows the prototype FBSD that is being used currently for all testing.
+
 
 **[Refer to your figures in the text.]**
 
