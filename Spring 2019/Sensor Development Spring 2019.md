@@ -17,7 +17,7 @@ This semester, the subteam tested the in-lab fluidized bed solids detector (FBSD
 
 The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA) and developed a mobile application for the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The MIA sensor determines when the sludge blanket levels are rising. The MAPE turbidity sensor connects an endoscope to an Android smartphone and displays the live feed from the endoscope camera, using the light intensity from the images collected to determine the water turbidity. The ultimate goal for these sensors was to provide the treatment plant operators with a cost-efficient and simple way to determine the height of the sludge blanket inside the floc hopper. This is critical to keep track of the rate at which the sludge blanket is rising.
 
-Additionally, a new project was started this semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project has two main parts - the turbidimeter and the 254 nm sensor. The turbidimeter is different from the team’s past projects, as it would measure both reflectance and absorbance of the light passing through the water sample. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate it in the future semesters **[Incorporate it into what? the current design of the turbidimeter?]**. This ultraviolet wavelength can be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily.
+Additionally, a new project was started this semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project has two main parts - the turbidimeter and the 254 nm sensor. The turbidimeter is different from the team’s past projects, as it would measure both reflectance and absorbance of the light passing through the water sample. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate the light in the design of the turbidimeter for Marcin's project in the future semesters **[Incorporate it into what? the current design of the turbidimeter?]**. This ultraviolet wavelength can be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily.
 
 ## Previous Work
 
@@ -27,8 +27,10 @@ Additionally, the subteam worked on the MIA sensor, which housed an analog photo
 
 During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. One major issue that this has resolved is that the previous iteration was not hard shelled and thus it was flexible and prone to movement. This caused the placing of the sensor and LED to change with each testing. This consequently caused a small variance in the light intensity readings, which the hard, inflexible casing of the new sensor resolves. In the Spring 2019 semester, the team has tested this sensor to develop an absorbance-voltage relation and finalized the prototype for in-lab use. **[Write in past tense.]**
 
+Please refer to Figure 1 for a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV). 
+
 ![](FBSD.png)
-**Figure 1:** The above figure shows a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV). **[Refer to your figures in the text otherwise they are not being used and it is not as clear to the reader their purpose.]**
+**Figure 1:****[Refer to your figures in the text otherwise they are not being used and it is not as clear to the reader their purpose.]**
 
 ## Methods
 
@@ -47,8 +49,10 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible. **[Use past tense in the active voice in this paragraph. It sounds a bit strange right now as I'm pretending to be a ~future person~. Try to imagine yourself looking back at your paper when writing it.]**
 
+The below image, Figure 2 shows the schematic for the  submersible sensor MIA. The red wires represent wires to the power source, the black toground, and the blue to the signal.
+
 ![](submersible_model.jpg)
-**Figure 2:** The above figure shows the schematic for the  submersible sensor MIA. The red wires represent wires to the power source, the black toground, and the blue to the signal.
+**Figure 2:** 
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
@@ -56,12 +60,14 @@ This semester the Sensor Development team made minor adjustments to the design o
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This made **[made]** it simpler to add and remove solutions of different concentrations to the tube.
 
+Figure 3 shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp. Figure 4 shows the FBSD prototype that is being used currently for all testing.
+
 ![](SetUp.JPG)
-**Figure 3:** The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.
+**Figure 3:** 
 
 ![](FBSD_Prototype.png)
 
-**Figure 4:** The above figure shows the FBSD prototype that is being used currently for all testing.
+**Figure 4:** 
 
 **[Refer to your figures in the text.]**
 
