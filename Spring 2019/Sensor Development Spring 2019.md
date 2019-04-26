@@ -47,16 +47,15 @@ The methodology of attaining a calibration curve has been listed in experimental
 
 ### Fabrication Details for the Submersible Sludge Blanket Detector
 
-The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible. **[Use past tense in the active voice in this paragraph. It sounds a bit strange right now as I'm pretending to be a ~future person~. Try to imagine yourself looking back at your paper when writing it.]**
+The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The biggest challenge has been water-proofing the sensor, the LED and the subsequent wiring stemming from those components. The sensor and LED has been cased within cuvettes and sealed with a combination of PVC cement and epoxy. The figure below, Figure 2, shows a schematic of the plans for the sensor. Because the opening through which the sensor enters is close to an inch, the size of the sensor head must be as small as possible. **[Use past tense in the active voice in this paragraph. It sounds a bit strange right now as I'm pretending to be a ~future person~. Try to imagine yourself looking back at your paper when writing it.]**
 
-The below image, Figure 2 shows the schematic for the  submersible sensor MIA. 
 
 ![](submersible_model.jpg)
 **Figure 2:**  Shows the schematic for the MIA sensor. The red wires represent wires to the power source, the black toground, and the blue to the signal.
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
-This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remained **[remained]** the same, however instead of using an external 5V to 3V circuit the design included **[included]** a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remained **[remained]** the same, however instead of using an external 5V to 3V circuit the design includes **[included]** a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This made **[made]** it simpler to add and remove solutions of different concentrations to the tube.
 
