@@ -25,7 +25,7 @@ During the Fall 2017 and Spring 2018 semesters, the subteam began developing the
 
 Additionally, the subteam worked on the MIA sensor, which housed an analog photodiode (a semiconductor that converts light to electrical current), an LED light source, and a microcontroller inside a portable casing. Similar to the MAPE turbidity sensor, the MIA sensor measured the fluid turbidity using light intensity. However, this sensor detected light passing through the fluid using a photodiode, which is more reliable and less susceptible to noise. The microcontroller reads the data from the photosensor and converts it into turbidity values using a relation established through calibration testing. This sensor served as a prototype for a larger device that would function similarly to the MAPE turbidity sensor, providing treatment plant operators with affordable and user-friendly methods of determining fluid turbidity and sludge blanket height.
 
-During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. One major issue that this has resolved is that the previous iteration was not hard shelled and thus it was flexible and prone to movement. This caused the placing of the sensor and LED to change with each testing. This consequently caused a small variance in the light intensity readings, which the hard, inflexible casing of the new sensor resolves. This semester, the team is testing this sensor to develop an absorbance-voltage relation and finalizing the prototype for in-lab use. **[Write in past tense.]**
+During the Fall 2018 semester, the FBSD was redesigned with a new casing and new components to improve the modularity of the design. A lot of thought was put into how to make the sensor easy to use, since the team wanted to ensure complete flexibility in terms of usage. This involved allowing the user to replace faulty photosensors and LEDs, which would allow for the casing and apparatus to remain the same throughout experiments. Although the calibration curve has not yet been developed, the Fall 2018 design has proven to be easier to use than the previous iterations, and also has definitively solved some of the problems of both the first and second versions of the sensor. One major issue that this has resolved is that the previous iteration was not hard shelled and thus it was flexible and prone to movement. This caused the placing of the sensor and LED to change with each testing. This consequently caused a small variance in the light intensity readings, which the hard, inflexible casing of the new sensor resolves. In the Spring 2019 semester, the team has tested this sensor to develop an absorbance-voltage relation and finalized the prototype for in-lab use. **[Write in past tense.]**
 
 ![](FBSD.png)
 **Figure 1:** The above figure shows a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV). **[Refer to your figures in the text otherwise they are not being used and it is not as clear to the reader their purpose.]**
@@ -34,8 +34,8 @@ During the Fall 2018 semester, the FBSD was redesigned with a new casing and new
 
 The methodology of attaining a calibration curve has been listed in experimental methods. A calibration curve is used to determine the concentration of an unknown solution based on previous measurements of solutions of known concentrations. To use the FBSD for the HRS team apparatus, the following steps must be taken.
 
-1. Connect the sensor to ProCoDA **[Use consistent punctuation.]**
-2. Attach **[the sensor]** to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
+1. Connect the sensor to ProCoDA. **[Use consistent punctuation.]**
+2. Attach the sensor**[the sensor]** to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
 3. Using ProCoDA read the voltage values and use the subsequent calibration curve to determine the corresponding concentration/turbidity.
 
 *Note: the calibration curve is still being developed.*
@@ -52,9 +52,9 @@ The Sensor Development team has begun work on fabricating the Submersible Sludge
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
-This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remain **[remained]** the same, however instead of using an external 5V to 3V circuit the design now includes **[included]** a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remained **[remained]** the same, however instead of using an external 5V to 3V circuit the design included **[included]** a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
-In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This makes **[made]** it simpler to add and remove solutions of different concentrations to the tube.
+In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This made **[made]** it simpler to add and remove solutions of different concentrations to the tube.
 
 ![](SetUp.JPG)
 **Figure 3:** The above figure shows the testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.
@@ -69,17 +69,17 @@ In order to begin testing, the Sensor Development team also created a testing ap
 
 ### Special Components for the Submersible Sludge Blanket Detector
 
-- The photosensor used is **[was]** the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
+- The photosensor used was **[was]** the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
 
-- Because the code will rely **[does this need to be past tense?]** on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used is **[was]** a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
+- Because the code will rely **[does this need to be past tense?]** on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was **[was]** a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
 
 ### Special Components for the Fluidized Beds Solids Detector
 
 - The photosensor used is **[was]** TEMT6000 Ambient Light Sensor, which is **[was]** the same photosensor as for the Submersible Sludge Blanket Detector. It is available [here](https://www.sparkfun.com/products/8688).
 
-- The LED used is **[was, I'm going to stop pointing these tense issues out, but please go back and fix them.]** from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED was chosen due to its plastic diffused backlight, which allowed even distribution of light throughout the system, minimizing the effect on the calibration curve that the positioning of the photosensor may create.
+- The LED used was **[was, I'm going to stop pointing these tense issues out, but please go back and fix them.]** from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED was chosen due to its plastic diffused backlight, which allowed even distribution of light throughout the system, minimizing the effect on the calibration curve that the positioning of the photosensor may create.
 
-- The other parts necessary for this sensor are **[were]** wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
+- The other parts necessary for this sensor were **[were]** wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
 ### Special Components for the Low-Cost Turbidimeter
 
@@ -91,7 +91,10 @@ In order to begin testing, the Sensor Development team also created a testing ap
 
 - Along with the laser diodes, five infrared sensors were also tested. These are most sensitive at 850nm wavelength. These were bought from [T.T. Electronics](https://www.ttelectronics.com/). The following table has relevant information regarding these sensors.
 
+- Refer to table 1 for datasheets and links to the sensors mentioned above.
+
 **[Label your table! Table labels go at the top. i.e. Table 1. Blah balh ablah and don't forget to refer to it in your text!]**
+**Table 1. Details for sensors.**
 
 Part number | Description | Datasheet Link
 ------------ | ------------- | -------------
