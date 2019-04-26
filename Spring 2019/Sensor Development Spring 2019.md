@@ -139,7 +139,7 @@ The MAPE app code from past semesters, which utilized the Android Camera API, wa
 
 ## References
 **[Cite your references correctly. This is very lazy.]**
-* Spring 2018 Manual: https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md
-* Fall 2018 Manual:https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md
-* Program for endoscope: https://github.com/AguaClara/sensor_dev/tree/master/code/Endoscope%20Pilot%20Code
-* Open source library utilized in endoscope program: https://github.com/saki4510t/UVCCamera
+* [Spring 2018 Manual](https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md)
+* [Fall 2018 Manual](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+* [Program for endoscope](https://github.com/AguaClara/sensor_dev/tree/master/code/Endoscope%20Pilot%20Code)
+* [Open source library utilized in endoscope program](https://github.com/saki4510t/UVCCamera)
