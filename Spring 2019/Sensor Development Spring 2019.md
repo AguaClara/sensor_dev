@@ -1,6 +1,6 @@
 # Sensor Development, Spring 2019
 #### Lois Lee, Lawrence Li, Srilekha Vangavolu, Sonu Kapoor
-#### April 12, 2019
+#### May 3, 2019
 
 **[Hello! I will be making comments in these bold brackets. If they are simple grammar corrections feel free to delete the bracketed comment as soon as it is corrected. Otherwise, keep them and the next time around they will be deleted by the graders.]**
 
@@ -55,7 +55,7 @@ The Sensor Development team has begun work on fabricating the Submersible Sludge
 
 ### Fabrication Details for the Fluidized Beds Solids Detector
 
-This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remained **[remained]** the same, however instead of using an external 5V to 3V circuit the design includes **[included]** a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
+This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remained **[remained]** the same, however instead of using an external 5V to 3V circuit the design included **[included]** a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
 
 In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This made **[made]** it simpler to add and remove solutions of different concentrations to the tube.
 
