@@ -77,15 +77,15 @@ Figure 3 shows the testing apparatus and the test setup in lab. Figure 4 shows t
 
 - The photosensor used was **[was]** the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
 
-- Because the code relies **[does this need to be past tense?]** on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was **[was]** a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
+- Because the code relies **[does this need to be past tense?]** on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
 
 ### Special Components for the Fluidized Beds Solids Detector
 
-- The photosensor used is **[was]** TEMT6000 Ambient Light Sensor, which is **[was]** the same photosensor as for the Submersible Sludge Blanket Detector. It is available [here](https://www.sparkfun.com/products/8688).
+- The photosensor used was TEMT6000 Ambient Light Sensor, which was the same photosensor as for the Submersible Sludge Blanket Detector. It is available [here](https://www.sparkfun.com/products/8688).
 
-- The LED used was **[was, I'm going to stop pointing these tense issues out, but please go back and fix them.]** from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED was chosen due to its plastic diffused backlight, which allowed even distribution of light throughout the system, minimizing the effect on the calibration curve that the positioning of the photosensor may create.
+- The LED used was from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED was chosen due to its plastic diffused backlight, which allowed even distribution of light throughout the system, minimizing the effect on the calibration curve that the positioning of the photosensor may create.
 
-- The other parts necessary for this sensor were **[were]** wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
+- The other parts necessary for this sensor were wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
 ### Special Components for the Low-Cost Turbidimeter
 
