@@ -7,7 +7,7 @@
 **[Overall: Good job! There are still issues with tenses. Make sure you have someone proofread the whole report to get rid of those before the final submission. Label your tables and refer to tables and figures in the text.]**
 
 ## Abstract
-The Sensor Development subteam’s goal was to develop low-cost sensors with readily available materials to monitor and report water quality in the water treatment processes in AguaClara plants. In Spring 2019, the subteam developed a calibration curve for the Fluidized Bed Solids Detector, prototyped a Sludge Blanket Detector, and finished developing the Mobile Application-Processed Endoscope. Additionally, the subteam started designing a low-cost turbidimeter utilizing both the reflectance and absorbance of light.
+The Sensor Development subteam’s goal is to develop low-cost sensors with readily available materials to monitor and report water quality in the water treatment processes in AguaClara plants and labs. In Spring 2019, the subteam worked on four different projects. The subteam developed a calibration curve for the Fluidized Bed Solids Detector that was fabricated in the previous semester, and also prototyped a Sludge Blanket Detector for the upcoming Honduras trip. Additionally, the subteam finished developing the Mobile Application-Processed Endoscope. The subteam also started designing a low-cost turbidimeter that would measure both the transmittance and absorbance of light. 
 
 ## Introduction
 
