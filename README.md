@@ -5,9 +5,8 @@ The sensor development team's repo.
 * Please visit our site at [aguaclara.github.io/sensor_dev/](https://aguaclara.github.io/sensor_dev/)
 
 ## Current Team Members
-* Lois Lee 
-* Lawrence Li
-* Srilekha Vangavolu
+* Saul Bernaber
+* Rishik Zaparde
 * Sonu Kapoor
 
 ## Semester Goals
