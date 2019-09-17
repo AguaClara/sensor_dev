@@ -5,16 +5,14 @@ and other things we want to have easy access to.
 
 ## About Us
 
-Our goal is to create a lowcost but efficient concentration detector by essentially hijacking 
+Our goal is to create a lowcost but efficient concentration detector by essentially hijacking
 cheap endoscopes/borescopes and merging its function with code and physical additions of our own.
-By designing a mobile application that utilizes image processing and basic equations relating 
+By designing a mobile application that utilizes image processing and basic equations relating
 the image values to concentrations, we can both get a visual of what is going on in each level of depth
 and determine using a threshold value where the sludge blanket begins.
 
 The current members of this subteam are
-* Dana Owens (DLO49)
-* Lawrence Li (LL678)
-* Lois Lee (LL556) 
+
 
 
 ## Srilekha's CAD rendering of the MAPE design.
@@ -40,7 +38,7 @@ To learn more about the specifics of our subteam, please look through the tabs b
 
   - Currently working on fabrication of an expandable ruler system for MAPE design.
   - Currently working on endoscope attachment fabrication and supplies.
-  
+
 
 Learn more about each of the [components](./components/components.md) of our sensor plan.
 
@@ -60,10 +58,10 @@ g of clay | 0 | 1.37500 | 2.7500 | 4.12500 | 5.50000 | 6.87500 | 8.25 | 9.62500 
 
 
 
-The past members of this subteam are 
+The past members of this subteam are
 
 * Srilekha Vangavolu (SV397)
 * Hannah Si (HS649)
-
-
-
+* Dana Owens (DLO49)
+* Lawrence Li (LL678)
+* Lois Lee (LL556)
