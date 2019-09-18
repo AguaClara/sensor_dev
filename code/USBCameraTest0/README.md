@@ -4,6 +4,7 @@ UVCCamera
 library and sample to access to UVC web camera on non-rooted Android device
 
 Copyright (c) 2014-2017 saki t_saki@serenegiant.com
+
 Original library by saki: https://github.com/saki4510t/UVCCamera
 
  Licensed under the Apache License, Version 2.0 (the "License");
