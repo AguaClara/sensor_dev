@@ -65,10 +65,10 @@ Figure 3 shows the testing apparatus and the test setup in lab. Figure 4 shows t
 
 ### Special Components for the Submersible Sludge Blanket Detector
 
-- The photosensor used was the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
+- The photosensor used was the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. Even as we changed from 254 nm light to 450 nm, the photosensor can still be utilized. It is available [here](https://www.sparkfun.com/products/8688).
 
 - Because the code relies on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
-
+(if we are looking to use 450 nm light then we must change the LED? Look into this https://www.sparkfun.com/products/12062 - SB)
 ### Special Components for the Fluidized Beds Solids Detector
 
 - The photosensor used was TEMT6000 Ambient Light Sensor, which was the same photosensor as for the Submersible Sludge Blanket Detector. It is available [here](https://www.sparkfun.com/products/8688).
