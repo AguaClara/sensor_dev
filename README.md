@@ -1,9 +1,6 @@
 # sensor_dev
 The sensor development team's repo.
 
-## Website
-* Please visit our site at [aguaclara.github.io/sensor_dev/](https://aguaclara.github.io/sensor_dev/)
-
 ## Current Team Members
 * Saul Bernaber
 * Rishik Zaparde
@@ -19,15 +16,15 @@ Our goal is to create low-cost water quality analyzing sensors for lab and field
   * [Final Presentation Video](https://www.youtube.com/watch?v=eXQLOUvBqTo&list=PLhsGtpY8ipdZL4lExJA8KC0zCkaxwfs8R&index=14&t=0s)
 
   * [Midterm Symposium](https://docs.google.com/presentation/d/19i2A-b2Q4f15zrK7iW6RqBcvtl5FQ7Lq-mFPZDGoYFw/edit?usp=sharing)
-  
+
   * [Final Presentation](https://docs.google.com/presentation/d/18_G2b-PVCcobUceRZrm6Su0W9RKVEnH4eKmfyDdSLxM/edit#slide=id.g346a079b2f_0_0)
-  
+
   * [Final Manual](https://github.com/AguaClara/sensor_dev/blob/master/Spring%202019/Sensor%20Development%20Spring%202019.md)
 
 * Fall 2018
   * [Final Presentation Video](https://www.youtube.com/watch?v=kdExqWYQUp4&fbclid=IwAR3qTFfXEKs9vFkJliVOt9lb3al0OEvaf2x8Fl9Cfil3wVWwRreYeziP8f8)
 
-  * [Midterm Symposium](https://docs.google.com/presentation/d/1lunibmZEZ28jcir-08SKcnAh3Tq5pmKuoBBsQUrALIY/edit#slide=id.g44e7874227_0_21) 
+  * [Midterm Symposium](https://docs.google.com/presentation/d/1lunibmZEZ28jcir-08SKcnAh3Tq5pmKuoBBsQUrALIY/edit#slide=id.g44e7874227_0_21)
 
   * [Final Presentation](https://docs.google.com/presentation/d/17gbcGkgXVKzlnCITjcyJOvZCZV-m2hfEmijmOgN-dpk/edit#slide=id.g498a5cc811_0_26)
 
@@ -39,5 +36,3 @@ Our goal is to create low-cost water quality analyzing sensors for lab and field
   * [Final Presentation](https://docs.google.com/presentation/d/1z8MEi4Bpe6GwdDxDbs89RpllG_0ilBI8o5UYnoSLq9U/edit#slide=id.g1111d7c42e_0_81)
 
   * [Final Manual](https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md)
-
-
