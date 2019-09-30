@@ -31,16 +31,6 @@ Additionally, a new project was started that semester with the guidance of Marci
 
 In Fall 2019, the MAPE app was revisited due to problems surrounding controlling the aperture and exposure of the endoscope, which was interfering with turbidity readings. After looking through the UVCCamera library, it was determined that the MAPE app could no longer be pursued as a viable option. It appears that the code regulating the endoscope's aperture and exposure is embedded in the endoscope itself, which would mean that an external application (i.e. the MAPE app) would not be able to create consistent lighting conditions for turbidity readings.
 
-## Methods
-
-The methodology of attaining a calibration curve has been listed in experimental methods. A calibration curve is used to determine the concentration of an unknown solution based on previous measurements of solutions of known concentrations. To use the FBSD for the HRS team apparatus, the following steps must be taken.
-
-1. Connect the sensor to ProCoDA.
-2. Attach the sensor to the 1-in PVC tube by placing both sides of the sensor around the tube. Because of the magnets on the sides, the sensor should clasp well on its own.
-3. Using ProCoDA read the voltage values and use the subsequent calibration curve to determine the corresponding concentration/turbidity.
-
-*Note: the calibration curve is still being developed.*
-
 ## Fabrication Details
 
 ### Fabrication Details for the Submersible Sludge Blanket Detector
