@@ -85,6 +85,8 @@ OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElec
 
 ## References
 
+* Lee, L., Li, L., Vangavolu, S., Kapoor, S. (2019, May). Spring 2019 Final Report. Retrieved from
+https://github.com/AguaClara/sensor_dev/blob/master/Spring%202019/SensorDev-Spring-2019-Final-Report.md
 * Lee, L., Vangavolu, S., Si, H. (2018, May). Spring 2018 Manual. Retrieved from https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md
 * Li, L., Lee, L., Owens, D. (2018, December). Fall 2018 Manual. Retrieved from   https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md
 * Li, L. (2019, May). Program for endoscope. Retrieved from   https://github.com/AguaClara/sensor_dev/tree/master/code/Endoscope%20Pilot%20Code
