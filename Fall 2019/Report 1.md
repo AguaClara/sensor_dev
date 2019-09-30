@@ -26,6 +26,12 @@ Please refer to Figure 1 for a cross-section of the sensor.
 ![](FBSD.png)
 **Figure 1** Shows a cross-section of the CAD model of the FBSD. The full drawing can be seen [here](https://a360.co/2ULcyzV).
 
+In Spring 2019, the team tested this sensor to develop an absorbance-voltage relation and finalized the prototype for in-lab use, as well as the in-lab fluidized bed solids detector (FBSD) that was prototyped in Fall 2018 using 3D printing and embedded circuitry. The goal of this sensor was to provide the High Rate Sedimentation (HRS) team with a quick method of testing the concentration of clay particles within their testing parameters. Additionally, the subteam looked into submersibility design options for the turbidity sensor and ways to waterproof the sensor without compromising on accuracy.
+
+The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA) and developed a mobile application for the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The MIA sensor determines when the sludge blanket levels are rising. The MAPE turbidity sensor connects an endoscope to an Android smartphone and displays the live feed from the endoscope camera, using the light intensity from the images collected to determine the water turbidity. The ultimate goal for these sensors was to provide the treatment plant operators with a cost-efficient and simple way to determine the height of the sludge blanket inside the floc hopper. This is critical to keep track of the rate at which the sludge blanket is rising.
+
+Additionally, a new project was started this semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project has two main parts - the turbidimeter and the 254 nm sensor. The turbidimeter is different from the team’s past projects, as it would measure both reflectance and absorbance of the light passing through the water sample. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate the light in the design of the turbidimeter for Marcin's project in the future semesters. This ultraviolet wavelength can be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily.
+
 ## Methods
 
 The methodology of attaining a calibration curve has been listed in experimental methods. A calibration curve is used to determine the concentration of an unknown solution based on previous measurements of solutions of known concentrations. To use the FBSD for the HRS team apparatus, the following steps must be taken.
@@ -35,7 +41,6 @@ The methodology of attaining a calibration curve has been listed in experimental
 3. Using ProCoDA read the voltage values and use the subsequent calibration curve to determine the corresponding concentration/turbidity.
 
 *Note: the calibration curve is still being developed.*
-
 
 ## Fabrication Details
 
