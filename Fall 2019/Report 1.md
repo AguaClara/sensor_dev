@@ -80,9 +80,6 @@ OP805SL | Sensor, Opto switch assemble, transmissive, single channel; 5.1mm; 30V
 OP913WSL | Sensor, Opto switch assemble, transmissive, single channel; 3.8mm; 30V; 20mA | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OP913.pdf)
 OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OPL800.pdf)
 
-### Special Components for the MAPE Turbidity Sensor
-- The USB-connected endoscope used is the Depstech T01 USB-C Endoscope. It is designed for use with Mac and Windows computers, as well as Android smartphones. The device is available [here](http://www.depstech.com/?portfolio=depstech-t01).
-
 ## References
 
 * Lee, L., Li, L., Vangavolu, S., Kapoor, S. (2019, May). Spring 2019 Final Report. Retrieved from
