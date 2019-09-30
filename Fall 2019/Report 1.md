@@ -83,12 +83,6 @@ OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElec
 ### Special Components for the MAPE Turbidity Sensor
 - The USB-connected endoscope used is the Depstech T01 USB-C Endoscope. It is designed for use with Mac and Windows computers, as well as Android smartphones. The device is available [here](http://www.depstech.com/?portfolio=depstech-t01).
 
-## Experimental Methods
-
-### Set-up
-
-## Results and Analysis
-
 ## References
 
 * Lee, L., Vangavolu, S., Si, H. (2018, May). Spring 2018 Manual. Retrieved from https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md
