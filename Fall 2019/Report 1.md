@@ -130,6 +130,9 @@ In the future, it may also be necessary to test the effects of different types, 
 ## Results and Analysis
 The MAPE app code from past semesters, which utilized the Android Camera API, was unable to connect to external USB cameras, so that app was effectively abandoned and the team began researching new implementations. The team looked into using the OpenCV and Camera2 libraries, but these apps were unsuccessful because these libraries may not have supported the specific camera used. Finally, using the UVCCamera library found [here](https://github.com/saki4510t/UVCCamera), the team was able to get the app connected to the endoscope. Upon being connected to a smartphone via USB, the live feed from the endoscope was displayed on the screen. While this part of the app was successful, other tasks, such as incorporating the image processing code created in past semesters and fixing the exposure/white balance of the image, have not been implemented yet. Other libraries may have to be used in conjunction with the UVCCamera library in order to process the images.
 
+## MAPE App Update
+The MAPE app was revisited due to problems surrounding controlling the aperture and exposure of the endoscope which was interfering with turbidity readings. After looking through the UVCCamera library, it was determined that the MAPE app could no longer be pursued as a viable option. It appears that the code regulating the endoscope's aperture and turbidity is embedded in the endoscope itself, which would mean that an external application (i.e. the MAPE app) would not be able to create consistent lighting conditions for turbidity readings. 
+
 ## References
 
 * Lee, L., Vangavolu, S., Si, H. (2018, May). Spring 2018 Manual. Retrieved from https://github.com/AguaClara/sensor_dev/blob/master/manuals/manual_1.md
