@@ -27,6 +27,10 @@ The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA
 
 Additionally, a new project was started that semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project had two main parts - the turbidimeter and the 254 nm sensor. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate the light in the design of the turbidimeter for Marcin's project in the future semesters. This ultraviolet wavelength could be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily.
 
+## MAPE App Update
+
+In Fall 2019, the MAPE app was revisited due to problems surrounding controlling the aperture and exposure of the endoscope, which was interfering with turbidity readings. After looking through the UVCCamera library, it was determined that the MAPE app could no longer be pursued as a viable option. It appears that the code regulating the endoscope's aperture and exposure is embedded in the endoscope itself, which would mean that an external application (i.e. the MAPE app) would not be able to create consistent lighting conditions for turbidity readings.
+
 ## Methods
 
 The methodology of attaining a calibration curve has been listed in experimental methods. A calibration curve is used to determine the concentration of an unknown solution based on previous measurements of solutions of known concentrations. To use the FBSD for the HRS team apparatus, the following steps must be taken.
@@ -80,16 +84,10 @@ OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElec
 - The USB-connected endoscope used is the Depstech T01 USB-C Endoscope. It is designed for use with Mac and Windows computers, as well as Android smartphones. The device is available [here](http://www.depstech.com/?portfolio=depstech-t01).
 
 ## Experimental Methods
-### Set-up:
 
-#### Current Experimental Methods
-
-#### Future Experimental Methods
+### Set-up
 
 ## Results and Analysis
-
-## MAPE App Update
-In Fall 2019, the MAPE app was revisited due to problems surrounding controlling the aperture and exposure of the endoscope, which was interfering with turbidity readings. After looking through the UVCCamera library, it was determined that the MAPE app could no longer be pursued as a viable option. It appears that the code regulating the endoscope's aperture and exposure is embedded in the endoscope itself, which would mean that an external application (i.e. the MAPE app) would not be able to create consistent lighting conditions for turbidity readings.
 
 ## References
 
