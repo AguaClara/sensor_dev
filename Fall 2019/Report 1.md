@@ -23,7 +23,7 @@ During Fall 2018, the FBSD was redesigned with a new casing and new components t
 
 In the Spring 2019 semester, the team tested this sensor to develop an absorbance-voltage relation and finalized the prototype for in-lab use, as well as the in-lab fluidized bed solids detector (FBSD) that was prototyped in Fall 2018 using 3D printing and embedded circuitry. The goal of this sensor was to provide the High Rate Sedimentation (HRS) team with a quick method of testing the concentration of clay particles within their testing parameters. Additionally, the subteam looked into submersibility design options for the turbidity sensor and ways to waterproof the sensor without compromising on accuracy.
 
-The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA) and developed a mobile application for the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The MIA sensor determines when the sludge blanket levels are rising. The MAPE turbidity sensor connects an endoscope to an Android smartphone and displays the live feed from the endoscope camera, using the light intensity from the images collected to determine the water turbidity. The ultimate goal for these sensors was to provide the treatment plant operators with a cost-efficient and simple way to determine the height of the sludge blanket inside the floc hopper. This is critical to keep track of the rate at which the sludge blanket is rising.
+The subteam also finished prototyping the Microcontroller-Interfaced Analog (MIA) and developed a mobile application for the Mobile Application-Processed Endoscope (MAPE) turbidity sensors, which were two design ideas the subteam developed for the submersible sensor the previous semester. The MIA sensor determines when the sludge blanket levels are rising. The MAPE turbidity sensor connects an endoscope to an Android smartphone and displays the live feed from the endoscope camera, using the light intensity from the images collected to determine the water turbidity. The ultimate goal for these sensors was to provide the treatment plant operators with a cost-efficient and simple way to determine the height of the sludge blanket inside the floc hopper. This is critical to keep track of the rate at which the sludge blanket is rising. Using the UVCCamera library found [here](https://github.com/saki4510t/UVCCamera), the team was able to get the app connected to the endoscope. Upon being connected to a smartphone via USB, the live feed from the endoscope was displayed on the screen. While this part of the app was successful, other tasks, such as incorporating the image processing code created in past semesters and fixing the exposure/white balance of the image, have not been implemented yet. Other libraries may have to be used in conjunction with the UVCCamera library in order to process the images.
 
 Additionally, a new project was started that semester with the guidance of Marcin Sawczuk, a PhD student working with Professor Monroe Weber-Shirk. The goal was to build a low-cost turbidimeter that measures the efficiency of each stage of the water purification plant. This project had two main parts - the turbidimeter and the 254 nm sensor. Plans were made to use an infrared LED and measure the light received directly across and at 90° from the light source. This would result in a more accurate analysis of water purity, as it accounts for absorbance of light. In addition, the usefulness of the 254 nm light was researched and plans were made to incorporate the light in the design of the turbidimeter for Marcin's project in the future semesters. This ultraviolet wavelength could be used to measure the amount of organic matter in the water, as organic matter absorbs this wavelength easily.
 
@@ -46,21 +46,6 @@ The Sensor Development team has begun work on fabricating the Submersible Sludge
 ![](submersible_model.jpg)
 **Figure 2:** Original Design: Shows the schematic for the MIA sensor. The red wires represent wires to the power source, the black toground, and the blue to the signal.
 
-### Fabrication Details for the Fluidized Beds Solids Detector
-
-This semester the Sensor Development team made minor adjustments to the design of the FBSD to make usage simpler. The casing, sensor, and light source remained  the same, however instead of using an external 5V to 3V circuit the design included a 3V battery connected directly to the LED. [Here is a link to the previous manual where you can see more about the fabrication for the Fluidized Beds Solids Detector.](https://github.com/AguaClara/sensor_dev/blob/master/2018_fall/Sensor%20Development%20Fall%202018.md)
-
-In order to begin testing, the Sensor Development team also created a testing apparatus using the same 1 inch PVC pipe as the HRS team, capped and sealed with PVC cement at one end, and another removable cap at the other end. This made  it simpler to add and remove solutions of different concentrations to the tube.
-
-Figure 3 shows the testing apparatus and the test setup in lab. Figure 4 shows the FBSD prototype that is being used currently for testing.
-
-![](SetUp.JPG)
-**Figure 3:** Testing apparatus and the test setup in lab. The 1 inch PVC pipe is shown on the right and is fixed using a clamp.
-
-![](FBSD_Prototype.png)
-
-**Figure 4:** Shows the prototype FBSD that is being used currently for all testing.
-
 ## Special Components
 
 ### Special Components for the Submersible Sludge Blanket Detector
@@ -68,14 +53,6 @@ Figure 3 shows the testing apparatus and the test setup in lab. Figure 4 shows t
 - The photosensor used was the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. It is available [here](https://www.sparkfun.com/products/8688).
 
 - Because the code relies on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
-
-### Special Components for the Fluidized Beds Solids Detector
-
-- The photosensor used was TEMT6000 Ambient Light Sensor, which was the same photosensor as for the Submersible Sludge Blanket Detector. It is available [here](https://www.sparkfun.com/products/8688).
-
-- The LED used was from adafruit, available [here](https://www.adafruit.com/product/1626). The LED has dimensions of 12 mm by 40 mm. This LED was chosen due to its plastic diffused backlight, which allowed even distribution of light throughout the system, minimizing the effect on the calibration curve that the positioning of the photosensor may create.
-
-- The other parts necessary for this sensor were wire and female and male headers which are commonly available. They are also available as [female headers](https://www.adafruit.com/product/2940) and [male headers](https://www.adafruit.com/product/3009) on Adafruit as well. Standard op amps are available in the market, some common ones include LM258 or LM358 which can be purchased by most electrical components vendors or can be purchased in bulk from the original manufacturers, [Texas Instruments](http://www.ti.com/product/LM258).
 
 ### Special Components for the Low-Cost Turbidimeter
 
@@ -106,24 +83,10 @@ OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElec
 ### Set-up:
 
 #### Current Experimental Methods
-1. Fill the testing apparatus with 200 mL of water. Measure out the amount of kaolin clay needed for a given concentration.
-2. Pour kaolin clay into testing apparatus. Seal testing apparatus with the pipe cap.
-3. Open up ProCoDA and click on sensors icon.
-4. Initialize the light sensor. This is done by covering the light sensor, ensuring no light enters, and then pressing the zero button on the graph.
-5. When the test is ready to be run, shake the testing apparatus and then place in the clamp. Once the tube is in the clamp, record data.
-6. Initially the data has transient behavior due to air bubbles passing through and the mixing motion. However, after the transient behavior, there is a brief equilibrium where there is little change in the values. This is when the data should be recorded.
-
-To develop a calibration curve for the FBSD, the subteam will attach it to the testing apparatus (and experiment with fluids of known solids concentration and turbidity. The photosensor outputs a voltage reading based on the amount of light absorbed. This recorded voltage output data will be analyzed and compared to the known concentrations of the fluids to produce a relation between concentration and absorbance, and thus concentration and voltage.
-
-In the future semesters, the team should perform 3 trials with 10 known concentration values ranging from 0.00 g/mL to 0.035 g/mL with an interval of 0.005 g/mL between each reading.
 
 #### Future Experimental Methods
-To test the accuracy of the photosensor and the calibration curve, the subteam will use the calibration curve to test the sensor on fluids of different known concentrations and record the calculated concentrations from the sensor. By comparing the measured concentration data to the actual concentrations of the fluids, the accuracy can be verified.
-
-In the future, it may also be necessary to test the effects of different types, particularly different colors, of sediment on the turbidity readings. However, the team is not yet at that testing phase and have no experimentation details yet to report.
 
 ## Results and Analysis
-The MAPE app code from past semesters, which utilized the Android Camera API, was unable to connect to external USB cameras, so that app was effectively abandoned and the team began researching new implementations. The team looked into using the OpenCV and Camera2 libraries, but these apps were unsuccessful because these libraries may not have supported the specific camera used. Finally, using the UVCCamera library found [here](https://github.com/saki4510t/UVCCamera), the team was able to get the app connected to the endoscope. Upon being connected to a smartphone via USB, the live feed from the endoscope was displayed on the screen. While this part of the app was successful, other tasks, such as incorporating the image processing code created in past semesters and fixing the exposure/white balance of the image, have not been implemented yet. Other libraries may have to be used in conjunction with the UVCCamera library in order to process the images.
 
 ## MAPE App Update
 In Fall 2019, the MAPE app was revisited due to problems surrounding controlling the aperture and exposure of the endoscope, which was interfering with turbidity readings. After looking through the UVCCamera library, it was determined that the MAPE app could no longer be pursued as a viable option. It appears that the code regulating the endoscope's aperture and exposure is embedded in the endoscope itself, which would mean that an external application (i.e. the MAPE app) would not be able to create consistent lighting conditions for turbidity readings.
