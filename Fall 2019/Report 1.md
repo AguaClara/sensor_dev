@@ -45,7 +45,7 @@
 
  ## Fabrication Details
 
- ### Fabrication Details for the Submersible Sludge Blanket Detector **be consistent with name (remove "submersible")**
+ ### Fabrication Details for the Sludge Blanket Detector 
 
  The Sensor Development team has begun work on fabricating the Submersible Sludge Blanket Detector. The original design was theorized to have a few problems and was thus changed to be completely covered in its surroundings. This will allow for the light absorb to be purely coming from the LED and not from reflected or refracted light from the surface.**write more about how the previous design allowed water /and how it affects the readint (turbidity?)** Moving away from using cuvettes to seal the sensor and LED, PVC will be used, in combination with PVC cement. The figure below, Figure 2, shows a schematic of the old plans for the sensor. (Reference relative dimensions? - SB) **canva**
 
@@ -60,7 +60,7 @@
 
  - Because the code relies on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was a small white LED **insert link here** **maybe** running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well. **you actually care about stuff* **do not say you do not care** **voltage, size, power capacity, spectral line halfway**
  (if we are looking to use 450 nm light then we must change the LED? Look into this https://www.sparkfun.com/products/12062 - SB)
- 
+
  ### Special Components for the Low-Cost Turbidimeter
 
 - The Arduino Mega 2560 was bought from the distributor Digi-Key. Its part number is [1050-1018-ND](https://www.digikey.com/products/en?keywords=1050-1018-ND).
