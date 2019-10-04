@@ -47,14 +47,14 @@ In Fall 2019, the MAPE app was revisited due to problems surrounding controlling
 
  ### Fabrication Details for the Sludge Blanket Detector
 
- The Sensor Development team has begun work on fabricating the Sludge Blanket Detector. The original design was theorized to have a few problems and was thus changed to be completely covered in its surroundings. More specifically, in the original design, the sensor was surrounded by a clear case all around. This allowed for outside light to affect the readings of the sensor. This will allow for the light absorb to be purely coming from the LED and not from reflected or refracted light from the surface.**write more about how the previous design allowed water /and how it affects the reading (turbidity?)** Moving away from using cuvettes to seal the sensor and LED, PVC will be used, in combination with PVC cement. The figure below, Figure 2, shows a schematic of the old plans for the sensor. (Reference relative dimensions? - SB) **canva**
+ The Sensor Development team has begun work on fabricating the Sludge Blanket Detector. The original design was theorized to have a few problems and was thus changed to be completely covered in its surroundings. More specifically, in the original design, the sensor was surrounded by a clear case all around. This allowed for outside light to affect the readings of turbidity by the sensor. This will allow for the light absorb to be purely coming from the LED and not from reflected or refracted light from the surface.Moving away from using cuvettes to seal the sensor and LED, PVC will be used, in combination with PVC cement. The figure below, Figure 2, shows a schematic of the old plans for the sensor. (Reference relative dimensions? - SB) **canva**
 
  ![](submersible_model.jpg)
  **Figure 2:** Original Design: Shows the schematic for the MIA sensor. The red wires represent wires to the power source, the black to ground, and the blue to the signal.
 
  ## Special Components
 
- ### Special Components for the Submersible Sludge Blanket Detector **be consistent with name (remove "submersible")**
+ ### Special Components for the  Sludge Blanket Detector 
 
  - The photosensor used was the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. Even as we changed from 254 nm light to 450 nm, the photosensor can still be utilized. It is available [here](https://www.sparkfun.com/products/8688).
 
