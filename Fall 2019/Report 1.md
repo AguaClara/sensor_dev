@@ -69,6 +69,7 @@ In Fall 2019, the MAPE app was revisited due to problems surrounding controlling
 - Along with the laser diodes, five infrared sensors were also tested. These are most sensitive at 850nm wavelength. These were bought from [T.T. Electronics](https://www.ttelectronics.com/). The following table has relevant information regarding these sensors.
 - Refer to table 1 for datasheets and links to the sensors mentioned above.
 **Table 1. Details for sensors.**
+
 Part number | Description | Datasheet Link
 ------------ | ------------- | -------------
 OP830SL | Phototransistor, Photodarlington, NPN Silicon, TO-18 Dome Lens | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OP800_830_SLandWSL.pdf)
