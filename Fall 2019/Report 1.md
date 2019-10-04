@@ -54,7 +54,7 @@ In Fall 2019, the MAPE app was revisited due to problems surrounding controlling
 
  ## Special Components
 
- ### Special Components for the  Sludge Blanket Detector 
+ ### Special Components for the  Sludge Blanket Detector
 
  - The photosensor used was the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. Even as we changed from 254 nm light to 450 nm, the photosensor can still be utilized. It is available [here](https://www.sparkfun.com/products/8688).
 
