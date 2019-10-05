@@ -71,6 +71,6 @@ OP805SL | Sensor, Opto switch assemble, transmissive, single channel; 5.1mm; 30V
 OP913WSL | Sensor, Opto switch assemble, transmissive, single channel; 3.8mm; 30V; 20mA | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OP913.pdf)
 OP812SL-OC | Photologic TO-18 | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OPL800.pdf)
 
-##References
+## References
 Li, L., Lee, L., Vangavolu, S., Kapoor, S. (2018, December). Fall 2018 Manual. Retrieved from:
 https://github.com/AguaClara/sensor_dev/blob/master/Spring%202019/SensorDev-Spring-2019-Final-Report.md
