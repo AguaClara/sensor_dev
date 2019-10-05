@@ -1,8 +1,8 @@
 #### Sonu Kapoor, Saul Bernaber, Rishik Zaparde
  #### Oct 4, 2019
 
- **Make a note of having citations everywhere in the report so our amazing RA does not yell at us!**
- **for the future - images of plans**
+// **Make a note of having citations everywhere in the report so our amazing RA does not yell at us!**
+ //**for the future - images of plans**
 
  ## Abstract
  Sensor Development's goal is to develop affordable sensors with readily available materials to monitor and report water quality in the water treatment processes in AguaClara plants and labs. In Fall 2019, the subteam worked on two different projects that were slight modifications from the previous semester. The subteam worked on a second prototype of a Sludge Blanket Detector(SBD) for the upcoming Honduras trip. Additionally, the subteam also started designing a low-cost turbidimeter that would measure the amount of dissolved organics as well as turbidity.
