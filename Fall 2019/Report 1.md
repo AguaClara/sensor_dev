@@ -1,9 +1,6 @@
 #### Sonu Kapoor, Saul Bernaber, Rishik Zaparde
  #### Oct 4, 2019
 
-// **Make a note of having citations everywhere in the report so our amazing RA does not yell at us!**
- //**for the future - images of plans**
-
  ## Abstract
  Sensor Development's goal is to develop affordable sensors with readily available materials to monitor and report water quality in the water treatment processes in AguaClara plants and labs. In Fall 2019, the subteam worked on two different projects that were slight modifications from the previous semester. The subteam worked on a second prototype of a Sludge Blanket Detector(SBD) for the upcoming Honduras trip. Additionally, the subteam also started designing a low-cost turbidimeter that would measure the amount of dissolved organics as well as turbidity.
 
@@ -40,8 +37,7 @@ In Fall 2019, the MAPE app was revisited due to problems surrounding controlling
 
  - The photosensor used was the TEMT6000 Ambient Light Sensor from developer SparkFun. TEMT6000 is a silicon NPN epitaxial planar phototransistor in a miniature transparent mold for surface mounting onto a printed circuit board. The device is sensitive to wavelengths from 390 nm to 700 nm. Even as we changed from 254 nm light to 450 nm, the photosensor can still be utilized. It is available [here](https://www.sparkfun.com/products/8688).
 
- - Because the code relies on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was a small white LED **insert link here** **maybe** running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well. **you actually care about stuff* **do not say you do not care** **voltage, size, power capacity, spectral line halfway**
- (if we are looking to use 450 nm light then we must change the LED? Look into this https://www.sparkfun.com/products/12062 - SB)
+ - Because the code relies on the rate of change of light readings rather than the absolute value of light intensity, the LED used in this sensor is irrelevant and open to change. In the Spring 2019 iteration, the LED used was a small white LED running on 3V, however any LED such as those from [here](www.sparkfun.com) would work well.
 
  ### Special Components for the Low-Cost Turbidimeter
 
