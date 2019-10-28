@@ -11,6 +11,8 @@ The sensor development team's repo.
 Our goal is to create low-cost water quality analyzing sensors for lab and field use. Two projects currently being developed are the low-cost turbidimeter (Marcin's Project) and the MAPE (mobile application-processed endoscope). The basic function of both these sensors is to relate absorbance or image values to concentrations.
 
 ## Links to Reports and Presentations
+* Fall 2019
+  * [Mid-Semester Symposium] (https://docs.google.com/presentation/d/1IKnD7iTeREiuXIxk95GRojf3bocVBwtAz84cADMnMpM/edit#slide=id.g707385bde4_3_0)
 
 * Spring 2019
   * [Final Presentation Video](https://www.youtube.com/watch?v=eXQLOUvBqTo&list=PLhsGtpY8ipdZL4lExJA8KC0zCkaxwfs8R&index=14&t=0s)
