@@ -8,7 +8,7 @@ The sensor development team's repo.
 
 ## Semester Goals
 <!---Our goal is to create a lowcost but efficient concentration detector by essentially hijacking cheap endoscopes/borescopes and merging its function with code and physical additions of our own. By designing a mobile application that utilizes image processing and basic equations relating the image values to concentrations, we can both get a visual of what is going on in each level of depth and determine using a threshold value where the sludge blanket begins.--->
-Our goal is to create low-cost water quality analyzing sensors for lab and field use. Two projects currently being developed are the low-cost turbidimeter (Marcin's Project) and the MAPE (mobile application-processed endoscope). The basic function of both these sensors is to relate absorbance or image values to concentrations.
+Our goal is to create low-cost water quality analyzing sensors for lab and field use. Two projects currently being developed are the submersible floc blanket detector and the low-cost turbidimeter. The basic function of both these sensors is to relate absorbance or image values to concentrations.
 
 ## Links to Reports and Presentations
 * Spring 2020
