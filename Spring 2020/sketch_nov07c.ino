@@ -1,4 +1,4 @@
-long analogPin0 = A0;
+int analogPin0 = A0;
 int analogPin1 = A1;
 int val_scattered = 0;
 int val_transmitted = 0;
