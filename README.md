@@ -2,10 +2,10 @@
 The sensor development team's repo.
 
 ## Current Team Members
-* Winnie Chan
-* Payton Hunter
-* Kaleigh Soucy
-* Sanjana Uddin
+* Winnie Chan (wc436@cornell.edu)
+* Payton Hunter (prh64@cornell.edu)
+* Kaleigh Soucy (krs258@cornell.edu)
+* Sanjana Uddin (ssu3@cornell.edu)
 
 ## Semester Goals
 <!---Our goal is to create a lowcost but efficient concentration detector by essentially hijacking cheap endoscopes/borescopes and merging its function with code and physical additions of our own. By designing a mobile application that utilizes image processing and basic equations relating the image values to concentrations, we can both get a visual of what is going on in each level of depth and determine using a threshold value where the sludge blanket begins.--->
